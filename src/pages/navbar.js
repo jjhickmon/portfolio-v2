@@ -1,15 +1,9 @@
 import React from "react";
 import '../style/Navbar.css';
-import { BrowserRouter, Route, Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-    function clickPage(page) {
-        this.setState({
-            active: page
-        });
-    }
 
-    const activeStyle = { color: '#628E7A' };
     return (
         <nav>
             <div className="left">

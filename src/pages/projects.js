@@ -18,13 +18,12 @@ function Projects() {
                                 A lightweight yet intuitive 3d graphics library
                                 written in Java.
                             </p>
-                            <a href="https://github.com/jjhickmon/Luna" target="_blank" rel="noopener" aria-label="github">
-                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png"/>
+                            <a href="https://github.com/jjhickmon/Luna" target="_blank" rel="noreferrer" aria-label="github">
+                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
                             </a>
                         </div>
                     </div>
                     <div className="project-card-right luna-img">
-                        <img></img>
                     </div>
                 </div>
                 <div className="project-card">
@@ -42,7 +41,6 @@ function Projects() {
                         </div>
                     </div>
                     <div className="project-card-right delivr-img">
-                        <img></img>
                     </div>
                 </div>
                 <div className="project-card">
@@ -57,8 +55,8 @@ function Projects() {
                             meteorological data to forecast weather at any
                             location.
                             </p>
-                            <a href="https://github.com/jjhickmon/Weather" target="_blank" rel="noopener" aria-label="github">
-                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png"/>
+                            <a href="https://github.com/jjhickmon/Weather" target="_blank" rel="noreferrer" aria-label="github">
+                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
                             </a>
                         </div>
                     </div>
@@ -66,7 +64,7 @@ function Projects() {
                     </div>
                 </div>
                 <footer className="attribution">
-                    <a>Copyright © 2022 Javon Hickmon - All Rights Reserved.</a>
+                    <p>Copyright © 2022 Javon Hickmon - All Rights Reserved.</p>
                 </footer>
             </div>
         </div>

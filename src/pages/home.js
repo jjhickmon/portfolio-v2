@@ -17,22 +17,22 @@ function Home() {
                                 <ul class="card-socials">
                                     <li>
                                         <a href="mailto:javonh@uw.edu">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/new-post.png"/>
+                                            <img src="https://img.icons8.com/small/32/FFFFFF/new-post.png" alt="mail icon"/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noopener" aria-label="linkedin">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/linkedin.png"/>
+                                        <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noreferrer" aria-label="linkedin">
+                                            <img src="https://img.icons8.com/small/32/FFFFFF/linkedin.png" alt="linkedin icon"/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/jjhickmon" target="_blank" rel="noopener" aria-label="github">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/github.png"/>
+                                        <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
+                                            <img src="https://img.icons8.com/small/32/FFFFFF/github.png" alt="github icon"/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/jjhickmon" target="_blank" rel="noopener" aria-label="twitter">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/twitter.png"/>
+                                        <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
+                                            <img src="https://img.icons8.com/small/32/FFFFFF/twitter.png" alt="twitter icon"/>
                                         </a>
                                     </li>
                                 </ul>
@@ -67,24 +67,26 @@ function Home() {
                         <li>Write<br />javonh@uw.edu</li>
                         <li className="footer-follow">Follow<br />
                             <a href="mailto:javonh@uw.edu">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/new-post.png"/>
+                                <img src="https://img.icons8.com/small/16/1A1A1A/new-post.png" alt="mail icon"/>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noopener" aria-label="linkedin">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/linkedin.png"/>
+                            <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noreferrer" aria-label="linkedin">
+                                <img src="https://img.icons8.com/small/16/1A1A1A/linkedin.png" alt="linkedin icon"/>
                             </a>
-                            <a href="https://github.com/jjhickmon" target="_blank" rel="noopener" aria-label="github">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/github.png"/>
+                            <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
+                                <img src="https://img.icons8.com/small/16/1A1A1A/github.png" alt="github icon"/>
                             </a>
-                            <a href="https://twitter.com/jjhickmon" target="_blank" rel="noopener" aria-label="twitter">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/twitter.png"/>
+                            <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
+                                <img src="https://img.icons8.com/small/16/1A1A1A/twitter.png" alt="twitter icon"/>
                             </a>
                         </li>
                     </ul>
                 </footer>
                 <footer className="attribution-home">
-                    <a target="_blank" href="https://icons8.com/icon/44411/twitter">App icons by Icons8</a>
-                    <a>Copyright © 2022 Javon Hickmon - All Rights Reserved.</a>
+                    <a target="_blank" rel="noreferrer" href="https://icons8.com/">
+                        App icons by Icons8<br/>
+                        Copyright © 2022 Javon Hickmon - All Rights Reserved.
+                    </a>
                 </footer>
             </div>
         </div>
