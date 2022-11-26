@@ -1,5 +1,6 @@
 import '../style/Home.css';
 import Layout from './layout';
+import {NavLink} from "react-router-dom";
 
 function Home() {
 
@@ -48,10 +49,10 @@ function Home() {
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">
-                                <a href="resume"><button type="button">RESUME</button></a>
+                                <NavLink to="/resume"><button type="button">RESUME</button></NavLink>
                             </div>
                             <div className="projects-button">
-                                <a href="projects"><button type="button">PROJECTS</button></a>
+                                <NavLink to="/projects"><button type="button">PROJECTS</button></NavLink>
                             </div>
                         </div>
                         <p>
