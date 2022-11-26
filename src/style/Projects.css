@@ -1,0 +1,91 @@
+.projects-page {
+    align-items: center;
+}
+
+.title {
+    margin: 10vh 0 6vh 0;
+}
+
+.project-card {
+    width: 40vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 0 0 10vh 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.project-card:hover, .project-card:focus, .project-card:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.project-name {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.project-name > h3 {
+    margin: 0 3vw;
+}
+
+.project-card-left {
+    text-align: left;
+    width: 60%;
+    padding: 5vw 0;
+}
+
+.project-description {
+    margin: 0 4vw;
+}
+
+.project-card-right {
+    text-align: left;
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.luna-img {
+    background-image: url("/src/img/luna-demo.png");
+    background-size: cover;
+}
+
+.delivr-img {
+    background-image: url("/src/img/delivr-demo.png");
+    background-size: cover;
+}
+
+.weather-img {
+    background-image: url("/src/img/weather-demo.jpeg");
+    background-size: cover;
+}
+
+.sidebar {
+    width: 1vw;
+    background-color: var(--primary);
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 1vmin;
+}
+
+.attribution > a {
+    margin: .5vw;
+}

@@ -1,0 +1,232 @@
+.page {
+    background-color: #FFFFFF;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+}
+
+.main-page {
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    width: 30vw;
+    height: inherit;
+    margin-left: 10vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.main-photo {
+    background-image: url("/src/img/plants.jpeg");
+    background-position: center;
+    width: 40vw;
+    height: 70vh;
+    margin:0;
+    padding:0; 
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    right: -26vw;
+    width: 17vw;
+    height: 35vh;
+    margin: 15vh 0;
+    padding: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.card-header {
+    display: flex;
+    height: 30vh;
+    padding: 0 1vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-socials {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-socials li {
+    margin: 0 1vw;
+}
+
+.card-socials a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-socials a img{
+    width: 2vw;
+}
+
+.card-footer {
+    background-color: var(--primary);
+    position: absolute;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    bottom: 0;
+}
+
+.portrait {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    padding:0;
+}
+
+.portrait img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+h1 {
+    font-size: calc(2px + 9vmin);
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 5vmin;
+    margin: 0;
+    font-weight: 100;
+    text-align: center;
+}
+
+h5 {
+    margin: 2vmin 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: calc(8px + 1vmin);
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    border-color: var(--primary);
+    border-width: 1.5px;
+    height: 4vh;
+    width: 15vmin;
+    font-size: 2vmin;
+}
+
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-button button {
+    background-color: var(--primary);
+    color: white;
+    margin: .8vh .5vw .8vh 0;
+    border-style: solid;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.resume-button button:hover, .resume-button button:focus, .resume-button button:active,
+.projects-button button:hover, .projects-button button:focus, .projects-button button:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.projects-button button {
+    background-color: white;
+    color: var(--primary);
+    margin: .8vh 0 .8vh .5vw;
+    border-style: solid;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    margin: 2vw;
+    padding: 0;
+}
+
+footer li {
+    text-align: center;
+    font-size: calc(5px + 1vmin);
+    margin: 0 1vmin 0 1vmin;
+    list-style: none;
+}
+
+footer li img {
+    margin: .2vw;
+}
+
+.attribution-home {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1vmin;
+    margin: .5vw;
+}
+
+.attribution-home > a {
+    color: black;
+}

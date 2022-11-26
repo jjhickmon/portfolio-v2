@@ -1,0 +1,75 @@
+nav {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 2vmin;
+}
+
+nav li {
+    margin: 0 1vmin 0 1vmin;
+    list-style: none;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+li > .active {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+li > .inactive {
+    color: black;
+    text-decoration: none;
+}
+
+li > .inactive:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+
+nav .left {
+    margin: 2vmin;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .right {
+    position: absolute;
+    right: 0;
+    margin: 2vmin;
+}
+
+.home-icon {
+    background-color: var(--primary);
+    padding: .8vmin;
+    margin: 1vmin;
+    justify-content: center;
+    width: 0;
+    height: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    font-size: 2vmin;
+    font-weight: normal;
+    margin: 0;
+}

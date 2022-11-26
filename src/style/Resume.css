@@ -1,0 +1,221 @@
+.resume-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-title {
+    margin: 10vh 0 0 0 !important;
+}
+
+.resume-download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub-title {
+    font-weight: 100;
+    font-size: 2vw;
+    width: inherit;
+    width: 50%;
+}
+
+.download {
+    width: inherit;
+    width: 50%;
+}
+
+.download button {
+    background-color: var(--primary);
+    color: white;
+    border-style: solid;
+    float: right;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.download button:hover, .download button:focus, .download button:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.resume-card {
+    width: 40vw;
+    height: 35vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin: 0 0 10vh 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.resume-card:hover, .resume-card:focus, .resume-card:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.resume-card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 35%;
+    padding: 2vw;
+
+    background-image: url("/src/img/plants.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 800%;
+}
+
+.amazon .resume-card-left{
+    background-position: left;
+}
+
+.code-org .resume-card-left{
+    background-position: bottom left;
+}
+
+.uw .resume-card-left{
+    background-position: top right;
+}
+
+.job-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-card-subheader {
+    font-size: 1.8vw;
+    margin: 0;
+}
+
+.job-info > h3 {
+    color: white;
+}
+
+.divider {
+    width: 80%;
+    color: rgb(255, 255, 255, .5);
+    border-style: solid;
+}
+
+.bottom-divider {
+    width: 99%;
+    color: rgb(0, 0, 0, .2);
+    border-style: solid;
+    float: left;
+}
+
+.job-info > h4 {
+    /* color: var(--primary); */
+    /* font-size: 1.3vw; */
+    margin: 0;
+    color: white;
+}
+
+.job-info > h5 {
+    margin: 0;
+    color: white;
+}
+
+.resume-card-right {
+    text-align: left;
+    width: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.job-description {
+    padding: 2vh 2vw 2vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.job-description ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.job-description ul li {
+    font-size: 1vw;
+}
+
+#resume-education, #resume-skills {
+    background-color: white;
+    width: 36vw;
+    padding: 2vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+#resume-education:hover, #resume-education:focus, #resume-education:active,
+#resume-skills:hover, #resume-skills:focus, #resume-skills:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#resume-education {
+    margin: 10vh 0;
+}
+
+#resume-skills {
+    margin: 0 0 10vh 0;
+}
+
+.resume-bottom-container {
+    background-image: url("/src/img/plants.jpeg");
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.college-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.college-name {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+}

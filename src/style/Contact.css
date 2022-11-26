@@ -1,0 +1,121 @@
+.static-page {
+    height: 100%;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-bg {
+    background-image: url("/src/img/plants.jpeg");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 77.2vh;
+    /* height: 62vh; */
+}
+
+.contact-card {
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    padding: 1vw;
+    width: 40vw;
+    font-size: 1.2vw;
+}
+
+input {
+    width: inherit;
+    border: none;
+    /* border: 1px solid black; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;    padding: .5vh 1vw;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea {
+    width: inherit;
+    border: none;
+    /* border: 1px solid black; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;    padding: .5vh 1vw;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+label {
+    font-size:normal;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-fname {
+    margin: 0 0 0 1vw;
+    width: 44%;
+}
+
+.contact-lname {
+    margin: 0 1vw 0 0;
+    width: 44%;
+}
+
+.contact-name > div {
+    margin: 2vh 0;
+}
+
+.contact-name > div > input {
+    width: 80%;
+}
+
+.contact-subject {
+    margin: 2vh 1vw;
+}
+
+.contact-subject > input {
+    width: 83%;
+}
+
+.contact-message {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-message > textarea {
+    width: 79%;
+}
+
+.contact-submit {
+    padding: 2vh 0;
+}
+
+.contact-submit > input {
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.contact-submit > input:hover, .contact-submit > input:focus, .contact-submit > input:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
