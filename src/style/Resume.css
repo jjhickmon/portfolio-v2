@@ -199,6 +199,7 @@
 .resume-bottom-container {
     background-image: url("/src/img/plants.jpeg");
     width: 100vw;
+    background-attachment: fixed;
     height: fit-content;
     display: flex;
     flex-direction: column;
