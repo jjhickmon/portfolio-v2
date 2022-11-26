@@ -48,10 +48,10 @@ function Home() {
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">
-                                <a href="/resume"><button type="button">RESUME</button></a>
+                                <a href="resume"><button type="button">RESUME</button></a>
                             </div>
                             <div className="projects-button">
-                                <a href="/projects"><button type="button">PROJECTS</button></a>
+                                <a href="projects"><button type="button">PROJECTS</button></a>
                             </div>
                         </div>
                         <p>
