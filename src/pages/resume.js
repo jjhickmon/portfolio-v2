@@ -79,7 +79,7 @@ function Resume() {
                             <div className="job-description">
                                 <ul>
                                     <li>
-                                        For the CSE 143: Intro to Programming course
+                                        For the CSE 143: Intro to Programming course.
                                     </li>
                                     <br />
                                     <li>
