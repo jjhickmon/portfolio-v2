@@ -12,7 +12,7 @@ function Resume() {
                     <div className="resume-download">
                         <h3 className="sub-title">Experience</h3>
                         <div className="download">
-                            <a href={resume_pdf} download="Javon Hickmon Resume"><button>DOWNLOAD</button></a>
+                            <a href={resume_pdf} target="_blank"><button>DOWNLOAD</button></a>
                         </div>
                     </div>
                     <div className="resume-card amazon">
