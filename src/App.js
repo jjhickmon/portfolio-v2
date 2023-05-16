@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
-import Resume from "./pages/resume";
+import Experience from "./pages/experience";
 import Projects from "./pages/projects";
-import Contact from "./pages/contact";
+import AboutMe from "./pages/aboutme";
 import NoPage from "./pages/nopage";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" index element={<Home />} />
-        <Route path="resume" element={<Resume />} />
+        <Route path="experience" element={<Experience />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="aboutme" element={<AboutMe />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

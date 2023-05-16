@@ -12,10 +12,10 @@ function Navbar() {
             </div>
             <div className="right">
                 <ul>
-                    <li><NavLink end to="/"className={({ isActive }) => (isActive ? 'active' : 'link inactive')}>ABOUT ME</NavLink></li>
-                    <li><NavLink to="/resume" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>RESUME</NavLink></li>
+                    <li><NavLink end to="/"className={({ isActive }) => (isActive ? 'active' : 'link inactive')}>HOME</NavLink></li>
+                    <li><NavLink to="/experience" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>EXPERIENCE</NavLink></li>
                     <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>PROJECTS</NavLink></li>
-                    <li><NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>CONTACT</NavLink></li>
+                    <li><NavLink to="/aboutme" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>ABOUT ME</NavLink></li>
                 </ul>
             </div>
         </nav>

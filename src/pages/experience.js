@@ -1,18 +1,66 @@
-import resume_pdf from "../img/resume-summer-2022.pdf";
+import resume_pdf from "../img/cv-spring-2023.pdf";
 import Layout  from "./layout";
-import '../style/Resume.css';
+import '../style/Experience.css';
 
-function Resume() {
+function Experience() {
     return (
         <div>
             <Layout />
             <div className="resume-page">
-                <h2 className="resume-title title">Resume</h2>
+                <h2 className="resume-title title">Experience</h2>
                 <div id="resume-experience">
                     <div className="resume-download">
-                        <h3 className="sub-title">Experience</h3>
+                        {/* <h3 className="sub-title">Resume</h3> */}
                         <div className="download">
-                            <a href={resume_pdf} target="_blank"><button>DOWNLOAD</button></a>
+                            <a href={resume_pdf} target="_blank"><button>DOWNLOAD MY CV</button></a>
+                        </div>
+                    </div>
+                    <div className="resume-card raivn">
+                        <div className="resume-card-left">
+                            <div className="job-info">
+                                <h3 className="resume-card-subheader">Undergraduate Researcher</h3>
+                                <hr className="divider" />
+                                <h4>RAIVN Lab</h4>
+                                <h5>Dec. 2022 - Present</h5>
+                            </div>
+                        </div>
+                        <div className="resume-card-right">
+                            <div className="job-description">
+                                <ul>
+                                    <li>
+                                        Working to utilize chain-of-thought prompting as a means of leveraging 
+                                        the knowledge contained within Language Models to improve the image classification task.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Worked with the Open Flamingo team to improve their ImageNet evaluation code.
+                                        I enabled batching and caching, effectively increasing the eval rate.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="resume-card uw">
+                        <div className="resume-card-left">
+                            <div className="job-info">
+                                <h3 className="resume-card-subheader">Teaching Assistant</h3>
+                                <hr className="divider" />
+                                <h4>University of Washington</h4>
+                                <h5>Mar. 2022 - Present</h5>
+                            </div>
+                        </div>
+                        <div className="resume-card-right">
+                            <div className="job-description">
+                                <ul>
+                                    <li>
+                                        Taught CSE 122, 123, 142 & 143.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Taught introductory Java programming concepts and hosted weekly 1-on-1 check-ins.
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div className="resume-card amazon">
@@ -21,7 +69,7 @@ function Resume() {
                                 <h3 className="resume-card-subheader">SDE Intern</h3>
                                 <hr className="divider" />
                                 <h4>Amazon</h4>
-                                <h5>2022</h5>
+                                <h5>June 2022 - Sept. 2022</h5>
                             </div>
                         </div>
                         <div className="resume-card-right">
@@ -47,7 +95,7 @@ function Resume() {
                                 <h3 className="resume-card-subheader">AP CSA Presenter</h3>
                                 <hr className="divider" />
                                 <h4>Code.org</h4>
-                                <h5>2022</h5>
+                                <h5>Mar. 2022</h5>
                             </div>
                         </div>
                         <div className="resume-card-right">
@@ -61,35 +109,6 @@ function Resume() {
                                     <li>
                                         Millions of high school students furthered their learning 
                                         using the content.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="resume-card uw">
-                        <div className="resume-card-left">
-                            <div className="job-info">
-                                <h3 className="resume-card-subheader">Teaching Assistant</h3>
-                                <hr className="divider" />
-                                <h4>University of Washington</h4>
-                                <h5>2022</h5>
-                            </div>
-                        </div>
-                        <div className="resume-card-right">
-                            <div className="job-description">
-                                <ul>
-                                    <li>
-                                        For the CSE 143: Intro to Programming course.
-                                    </li>
-                                    <br />
-                                    <li>
-                                        Taught Java programming concepts such as programming using 
-                                        ADTs, generative/structural recursion, and the 
-                                        intricacies of binary trees.
-                                    </li>
-                                    <br />
-                                    <li>
-                                        Performed weekly one-hour check-ins with multiple students.
                                     </li>
                                 </ul>
                             </div>
@@ -110,11 +129,11 @@ function Resume() {
                                 </ul>
                             </div>
                             <div className="olypmic-aa">
-                                <h3 className="college-name"><b>Olympic College</b> - Associates of Arts</h3>
-                                <ul>
+                                <h3 className="college-name"><b>Olympic College</b> - AA</h3>
+                                {/* <ul>
                                     <li>2019 - 2021</li>
                                     <li>Running Start Student</li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>
@@ -126,18 +145,18 @@ function Resume() {
                                 <h3>Proficient In</h3>
                                 <ul>
                                     <li>
-                                    Java (4 years), Python (3 years), JS (3 years), HTML/CSS (4 years), React JS (1 year)
+                                    Java (5 years), Python (4 years), JS (4 years), HTML/CSS (5 years), React JS (2 years), PyTorch (1 year)
                                     </li>
                                 </ul>
                             </div>
-                            <div id="learning" className="technical-skills">
+                            {/* <div id="learning" className="technical-skills">
                                 <h3>Learning</h3>
                                 <ul>
                                     <li>
                                     PyTorch, React Native
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div id="tools" className="technical-skills">
                                 <h3>Development Tools</h3>
                                 <ul>
@@ -154,4 +173,4 @@ function Resume() {
     );
 }
 
-export default Resume;
+export default Experience;

@@ -23,7 +23,7 @@
 
 .download {
     width: inherit;
-    width: 50%;
+    width: 100%;
 }
 
 .download button {
@@ -31,6 +31,8 @@
     color: white;
     border-style: solid;
     float: right;
+    width: 30%;
+    margin: 2vh;
 
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -81,7 +83,8 @@
     width: 35%;
     padding: 2vw;
 
-    background-image: url("/src/img/plants.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40),
+        rgba(0, 0, 0, 0.40)), url("/src/img/plants.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 800%;

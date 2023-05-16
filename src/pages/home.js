@@ -11,8 +11,8 @@ function Home() {
                 <div className="main">
                     <div className="main-photo">
                         <div className="card">
-                            <div className="card-header">
-                                <h2>Javon Hickmon</h2>
+                            <div className="card-header portrait">
+                                {/* <h2>Javon Hickmon</h2> */}
                             </div>
                             <div className="card-footer">
                                 <ul class="card-socials">
@@ -49,16 +49,19 @@ function Home() {
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">
-                                <NavLink to="/resume"><button type="button">RESUME</button></NavLink>
+                                <NavLink to="/experience"><button type="button">EXPERIENCE</button></NavLink>
                             </div>
                             <div className="projects-button">
                                 <NavLink to="/projects"><button type="button">PROJECTS</button></NavLink>
                             </div>
                         </div>
                         <p>
-                            My goal is to use Computer Science to further our understanding and knowledge of the world.
+                            I am broadly interested in Computer Vision, and Embodied AI; however, my specific interests 
+                            include Multimodal Machine Learning and Multi-agent Reinforcement Learning. 
                             <br /><br />
-                            I am currently interested in applications of Computer Vision through Deep Learning.
+                            My goal is to utilize multiple modalities in order to create systems that can truly 
+                            understand the semantics of our world and can effectively use this semantic knowledge 
+                            in real-world interaction and prediction.
                         </p>
                     </div>
                 </div>
@@ -86,7 +89,7 @@ function Home() {
                 <footer className="attribution-home">
                     <a target="_blank" rel="noreferrer" href="https://icons8.com/">
                         App icons by Icons8<br/>
-                        Copyright © 2022 Javon Hickmon - All Rights Reserved.
+                        This website was last updated May 2023
                     </a>
                 </footer>
             </div>
