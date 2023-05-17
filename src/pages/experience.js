@@ -12,7 +12,7 @@ function Experience() {
                     <div className="resume-download">
                         {/* <h3 className="sub-title">Resume</h3> */}
                         <div className="download">
-                            <a href={resume_pdf} target="_blank"><button>DOWNLOAD MY CV</button></a>
+                            <a href={resume_pdf} target="_blank" rel="noreferrer"><button>DOWNLOAD MY CV</button></a>
                         </div>
                     </div>
                     <div className="resume-card raivn">
