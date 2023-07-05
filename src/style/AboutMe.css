@@ -17,195 +17,30 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 5vh;
 }
 
-.about-professional-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.20),
-    rgba(0, 0, 0, 0.20)), url("/src/img/plants.jpeg");
-    background-position: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    width: 60vw;
-    height: 50vh;
-    z-index: -1;
-}
-
-.about-professional-card {
+.about-card {
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     padding: 2vw;
     position: relative;
-    right: -5vw;
-    width: 40vw;
+    width: 50vw;
+    height: 52vh;
     font-size: 1.2vw;
 }
 
-.about-professional-photo {
-    background-image: url("/src/img/portrait2.jpg");
+.about-photo {
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: right;
     align-items: right;
-    width: 40vw;
-    height: 65vh;
-}
-
-.about-personal-card {
-    background-color: white;
+    width: 30vw;
+    height: 60vh;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    padding: 2vw;
-    position: relative;
-    left: -4vw;
-    width: 40vw;
-    font-size: 1.2vw;
 }
 
-.about-personal-photo {
-    position: relative;
-    background-image: url("/src/img/family1.jpg");
-    background-position: right;
-    background-size: cover;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    left: -2vw;
-    width: 40vw;
-    height: 65vh;
+.about-photo.professional {
+    background-image: url("/src/img/presentation.jpg");
 }
-
-.about-personal-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.20),
-    rgba(0, 0, 0, 0.20)), url("/src/img/plants.jpeg");
-    background-position: center;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-    width: 60vw;
-    height: 50vh;
-    z-index: -1;
-}
-
-/* .static-page {
-    height: 100%;
-}
-
-.contact-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.contact-bg {
-    background-image: url("/src/img/plants.jpeg");
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 77.2vh;
-}
-
-.contact-card {
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    padding: 1vw;
-    width: 40vw;
-    font-size: 1.2vw;
-}
-
-input {
-    width: inherit;
-    border: none;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;    padding: .5vh 1vw;
-    border-radius: 18px;
-    font-family: inherit;
-    font-size: inherit;
-}
-
-textarea {
-    width: inherit;
-    border: none;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;    padding: .5vh 1vw;
-    border-radius: 18px;
-    font-family: inherit;
-    font-size: inherit;
-}
-
-label {
-    font-size:normal;
-}
-
-.contact-name {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-fname {
-    margin: 0 0 0 1vw;
-    width: 44%;
-}
-
-.contact-lname {
-    margin: 0 1vw 0 0;
-    width: 44%;
-}
-
-.contact-name > div {
-    margin: 2vh 0;
-}
-
-.contact-name > div > input {
-    width: 80%;
-}
-
-.contact-subject {
-    margin: 2vh 1vw;
-}
-
-.contact-subject > input {
-    width: 83%;
-}
-
-.contact-message {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-message > textarea {
-    width: 79%;
-}
-
-.contact-submit {
-    padding: 2vh 0;
-}
-
-.contact-submit > input {
-    background-color: var(--primary);
-    color: white;
-    font-weight: bold;
-
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-}
-
-.contact-submit > input:hover, .contact-submit > input:focus, .contact-submit > input:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} */

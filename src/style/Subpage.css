@@ -1,0 +1,39 @@
+.subpage {
+    padding: 5vw;
+}
+
+.subpage p {
+    font-size: 1.5vw;
+}
+
+.subpage a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.subpage-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage-subheader {
+    text-align: center;
+}
+
+.subpage-date {
+    font-size: 1.5vw;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin: 0;
+}

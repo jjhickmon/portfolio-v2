@@ -1,0 +1,71 @@
+.static-page {
+    height: 100%;
+}
+
+.leadership-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leadership-page a {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.leadership-header {
+    text-align: center;
+    margin: 0;
+}
+
+.leadership-date {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.leadership-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    padding: 2vw;
+    position: relative;
+    width: 70vw;
+    /* height: 23vh; */
+    font-size: 1.2vw;
+    margin: 5vh;
+}
+
+.leadership-card p, .leadership-card ul{
+    margin: 0;
+}
+
+.leadership-card-body {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding: 2vw;
+    align-items: left;
+    justify-content: left;
+}
+
+/* .leadership-card-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+} */
+
+.leadership-card-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    padding: 2vw;
+    width: 20vw;
+}
+
+/* .leadership-section {
+    margin: 10vh;
+} */

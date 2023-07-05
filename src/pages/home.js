@@ -18,30 +18,30 @@ function Home() {
                                 <ul class="card-socials">
                                     <li>
                                         <a href="mailto:javonh@uw.edu">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/new-post.png" alt="mail icon"/>
+                                            <img src="https://img.icons8.com/small/128/FFFFFF/new-post.png" width="32px" heigth="32px" alt="mail icon"/>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noreferrer" aria-label="linkedin">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/linkedin.png" alt="linkedin icon"/>
+                                            <img src="https://img.icons8.com/small/128/FFFFFF/linkedin.png" width="32px" heigth="32px" alt="linkedin icon"/>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/github.png" alt="github icon"/>
+                                            <img src="https://img.icons8.com/small/128/FFFFFF/github.png" width="32px" heigth="32px" alt="github icon"/>
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
                                             <img src="https://img.icons8.com/small/32/FFFFFF/twitter.png" alt="twitter icon"/>
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div className="intro">
-                        <h1>
+                        <h1 className="hello">
                             Hello
                         </h1>
                         <h5>
@@ -56,8 +56,8 @@ function Home() {
                             </div>
                         </div>
                         <p>
-                            I am broadly interested in Computer Vision, and Embodied AI; however, my specific interests 
-                            include Multimodal Machine Learning and Multi-agent Reinforcement Learning. 
+                            I am broadly interested in Computer Vision; however, my specific interests 
+                            include Multimodal Machine Learning and Fair Machine Learning.
                             <br /><br />
                             My goal is to utilize multiple modalities in order to create systems that can truly 
                             understand the semantics of our world and can effectively use this semantic knowledge 
@@ -66,31 +66,23 @@ function Home() {
                     </div>
                 </div>
                 <footer>
-                    <ul>
-                        <li>Call<br />360-551-0375</li>
+                    <ul className="footer-contact">
                         <li>Write<br />javonh@uw.edu</li>
                         <li className="footer-follow">Follow<br />
-                            <a href="mailto:javonh@uw.edu">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/new-post.png" alt="mail icon"/>
-                            </a>
-
                             <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noreferrer" aria-label="linkedin">
                                 <img src="https://img.icons8.com/small/16/1A1A1A/linkedin.png" alt="linkedin icon"/>
                             </a>
                             <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
                                 <img src="https://img.icons8.com/small/16/1A1A1A/github.png" alt="github icon"/>
                             </a>
-                            <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
+                            {/* <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
                                 <img src="https://img.icons8.com/small/16/1A1A1A/twitter.png" alt="twitter icon"/>
-                            </a>
+                            </a> */}
                         </li>
                     </ul>
-                </footer>
-                <footer className="attribution-home">
-                    <a target="_blank" rel="noreferrer" href="https://icons8.com/">
-                        App icons by Icons8<br/>
-                        This website was last updated May 2023
-                    </a>
+                    <div className="attribution-home">
+                        Last updated July 2023
+                    </div>
                 </footer>
             </div>
         </div>

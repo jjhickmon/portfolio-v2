@@ -2,6 +2,11 @@
     --primary: #4a7255;
 }
 
+.page-title {
+    margin: 10vh 0 0 0;
+    text-align: center;
+}
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;

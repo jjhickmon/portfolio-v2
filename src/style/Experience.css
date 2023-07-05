@@ -2,16 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
-.resume-title {
-    margin: 10vh 0 0 0 !important;
+.resume-page a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .resume-download {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+}
+
+.resume-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sub-title {
@@ -22,8 +32,14 @@
 }
 
 .download {
-    width: inherit;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download a {
+    margin: 2vh;
+    width: 12%;
 }
 
 .download button {
@@ -31,8 +47,7 @@
     color: white;
     border-style: solid;
     float: right;
-    width: 30%;
-    margin: 2vh;
+    width: 100%;
 
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -50,6 +65,39 @@
     transform: scale(1.1);
 }
 
+#subpage {
+    position: fixed;
+    width: 0;
+    height: 0;
+    top: 50vh;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    z-index: 0;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    box-sizing: border-box;
+    border: 0;
+}
+
+#subpage-background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    background-color: rgb(0, 0, 0, .5);
+    z-index: -1;
+    -webkit-transition: all 0.5s ease, z-index 1ms ease-out;
+    transition: all 0.5s ease, z-index 1ms ease-out;
+    box-sizing: border-box;
+}
+
+.resume-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .resume-card {
     width: 40vw;
     height: 35vh;
@@ -58,12 +106,13 @@
     display: flex;
     flex-direction: row;
     background-color: white;
+    z-index: 0;
 
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
@@ -72,6 +121,7 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    z-index: 2;
 }
 
 .resume-card-left {
@@ -90,15 +140,15 @@
     background-size: 800%;
 }
 
-.amazon .resume-card-left{
+#amazon .resume-card-left {
     background-position: left;
 }
 
-.code-org .resume-card-left{
+#code-org .resume-card-left, #peleg .resume-card-left {
     background-position: bottom left;
 }
 
-.uw .resume-card-left{
+#uw .resume-card-left{
     background-position: top right;
 }
 
@@ -175,7 +225,7 @@
     width: 36vw;
     padding: 2vw;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    
+
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -200,14 +250,27 @@
 }
 
 .resume-bottom-container {
-    background-image: url("/src/img/plants.jpeg");
+    /* background-image: url("/src/img/plants.jpeg"); */
     width: 100vw;
+    padding: 10vh;
     background-attachment: fixed;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.resume-bottom-container::before {    
+    content: "";
+    background-image: url("/src/img/plants.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    /* top: 0px; */
+    height: 155vh;
+    width: 100vw;
+    opacity: 0.10;
 }
 
 .college-header {
@@ -218,8 +281,4 @@
 
 .college-name {
     font-weight: 100;
-}
-
-a {
-    text-decoration: none;
 }

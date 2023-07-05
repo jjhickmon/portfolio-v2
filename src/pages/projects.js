@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div>
             <Layout />
-            <h2 className="title">Projects</h2>
+            <h1 className="page-title">Projects</h1>
             <div className="projects-page page">
                 <div className="project-card">
                     <div className="project-card-left">
@@ -63,9 +63,6 @@ function Projects() {
                     <div className="project-card-right weather-img">
                     </div>
                 </div>
-                <footer className="attribution">
-                    <p>Copyright © 2022 Javon Hickmon - All Rights Reserved.</p>
-                </footer>
             </div>
         </div>
     );

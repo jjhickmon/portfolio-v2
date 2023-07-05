@@ -27,6 +27,11 @@
 }
 
 .main-photo {
+    /* border-image: url("/src/img/plants.jpeg");
+    border-image-slice: 5;
+    border-image-width: 5;
+    border-width: 2px;
+    border-style: solid; */
     background-image: url("/src/img/plants.jpeg");
     background-position: center;
     width: 40vw;
@@ -120,17 +125,16 @@
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-h1 {
+.hello {
     font-size: calc(2px + 9vmin);
     margin: 0;
     font-weight: bold;
 }
 
-h2 {
+h1 {
     font-size: 5vmin;
     margin: 0;
     font-weight: 100;
-    text-align: center;
 }
 
 h5 {
@@ -138,7 +142,7 @@ h5 {
     font-weight: normal;
 }
 
-p {
+.intro p {
     font-size: calc(8px + 1vmin);
 }
 
@@ -207,11 +211,12 @@ footer {
     flex-direction: row;
 }
 
-footer ul {
+.footer-contact {
     position: absolute;
     display: flex;
     flex-direction: row;
     right: 0;
+    bottom: 0;
     margin: 2vw;
     padding: 0;
 }
@@ -235,6 +240,7 @@ footer li img {
     left: 0;
     font-size: 1vmin;
     margin: .5vw;
+    width:50%;
 }
 
 .attribution-home > a {
