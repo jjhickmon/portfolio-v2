@@ -4,7 +4,7 @@ function NoPage() {
     return (
         <div>
             <Layout />
-            <h2 className="title">Sorry! <br /> This page does not exist</h2>
+            <h1 className="page-title">Sorry! <br /> This page does not exist</h1>
         </div>
     );
 }
