@@ -102,7 +102,7 @@ function Experience() {
                                             Led the research, implementation, and analysis of the proposed methods.
                                         </li>
                                         <li>
-                                            To follow my journey, you can read my blog posts <a target="_blank" rel="noopener noreferrer" href="https://jjhickmon.github.io/dreu/"><b>here</b></a>.
+                                            To follow my journey, you can read my blog posts <a target="_blank" rel="noreferrer" href="https://jjhickmon.github.io/dreu/"><b>here</b></a>.
                                         </li>
                                     </ul>
                                 </div>

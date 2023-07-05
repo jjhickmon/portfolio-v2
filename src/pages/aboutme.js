@@ -69,9 +69,6 @@ function AboutMe() {
                                 alt='github icon'
                             />
                         </a>
-                        {/* <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/twitter.png" alt="twitter icon"/>
-                            </a> */}
                     </li>
                 </ul>
                 <div className='attribution-home'>

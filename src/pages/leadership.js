@@ -189,7 +189,7 @@ function Leadership() {
                                     height='415'
                                     frameBorder='0'
                                     scrolling='no'
-                                    allowTransparency='true'></iframe>
+                                    allowtransparency='true'></iframe>
                                 <iframe
                                     title='leadership-instagram-post'
                                     src='https://www.instagram.com/p/CnqgueRrO_s/embed'
@@ -197,7 +197,7 @@ function Leadership() {
                                     height='400'
                                     frameBorder='0'
                                     scrolling='no'
-                                    allowTransparency='true'></iframe>
+                                    allowtransparency='true'></iframe>
                             </div>
                         </div>
                     </div>

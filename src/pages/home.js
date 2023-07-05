@@ -15,7 +15,7 @@ function Home() {
                                 {/* <h2>Javon Hickmon</h2> */}
                             </div>
                             <div className="card-footer">
-                                <ul class="card-socials">
+                                <ul className="card-socials">
                                     <li>
                                         <a href="mailto:javonh@uw.edu">
                                             <img src="https://img.icons8.com/small/128/FFFFFF/new-post.png" width="32px" heigth="32px" alt="mail icon"/>
@@ -31,11 +31,6 @@ function Home() {
                                             <img src="https://img.icons8.com/small/128/FFFFFF/github.png" width="32px" heigth="32px" alt="github icon"/>
                                         </a>
                                     </li>
-                                    {/* <li>
-                                        <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
-                                            <img src="https://img.icons8.com/small/32/FFFFFF/twitter.png" alt="twitter icon"/>
-                                        </a>
-                                    </li> */}
                                 </ul>
                             </div>
                         </div>
@@ -75,9 +70,6 @@ function Home() {
                             <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
                                 <img src="https://img.icons8.com/small/16/1A1A1A/github.png" alt="github icon"/>
                             </a>
-                            {/* <a href="https://twitter.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="twitter">
-                                <img src="https://img.icons8.com/small/16/1A1A1A/twitter.png" alt="twitter icon"/>
-                            </a> */}
                         </li>
                     </ul>
                     <div className="attribution-home">
