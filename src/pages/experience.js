@@ -59,7 +59,7 @@ function Experience() {
     // NOTE: Make sure to add every new subpage to App.js
     function openSubpage() {
         let page_name = card.current.id;
-        document.getElementById('subpage').src = "experience/" + page_name;
+        document.getElementById('subpage').src = window.location.href + "/" + page_name;
         document.getElementById('subpage').style.zIndex = "3";
         document.getElementById('subpage').style.width = "70vw";
         document.getElementById('subpage').style.height = "70vh";
