@@ -126,7 +126,7 @@
 }
 
 .hello {
-    font-size: calc(2px + 9vmin);
+    font-size: 7.5vmin;
     margin: 0;
     font-weight: bold;
 }

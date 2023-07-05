@@ -37,10 +37,10 @@ function Home() {
                     </div>
                     <div className="intro">
                         <h1 className="hello">
-                            Hello
+                            Javon Hickmon
                         </h1>
                         <h5>
-                            Here's who I am & what I do
+                            Undergraduate Researcher @ UW
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">

@@ -2,7 +2,7 @@
     padding: 5vw;
 }
 
-.subpage p {
+.subpage p, .subpage ul {
     font-size: 1.5vw;
 }
 
