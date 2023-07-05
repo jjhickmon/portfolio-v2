@@ -6,11 +6,11 @@ import Leadership from "./pages/leadership";
 import AboutMe from "./pages/aboutme";
 import NoPage from "./pages/nopage";
 import NoPageSubpage from "./pages/nopage-subpage";
-import Raivn from "./pages/experience/raivn";
-import UW from "./pages/experience/uw";
-import Amazon from "./pages/experience/amazon";
-import CodeOrg from "./pages/experience/code-org";
-import Peleg from "./pages/experience/peleg";
+import Raivn from "./pages/raivn";
+import UW from "./pages/uw";
+import Amazon from "./pages/amazon";
+import CodeOrg from "./pages/code-org";
+import Peleg from "./pages/peleg";
 
 // To test the app, run the following command in the terminal:
 // npm start

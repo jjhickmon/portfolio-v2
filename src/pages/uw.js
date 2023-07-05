@@ -1,4 +1,4 @@
-import "../../style/Subpage.css";
+import "../style/Subpage.css";
 
 function UW() {
     return (
