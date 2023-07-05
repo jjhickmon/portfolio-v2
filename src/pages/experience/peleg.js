@@ -50,7 +50,7 @@ function Peleg() {
                 </li>
                 <li>
                     Led the research, implementation, and analysis of the
-                    proposed methods.
+                    proposed segmentation methods.
                 </li>
                 <li>
                     Updated the state-of-the-art object segmentation model{" "}

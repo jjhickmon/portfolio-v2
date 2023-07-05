@@ -16,7 +16,13 @@ function UW() {
                 <h3 className='subpage-date'>Mar. 2022 - Present</h3>
             </div>
             <p>
-                Simply put, I have loved TA-ing for the Startup 190 courses
+                I assisted in the teaching, logistics, and curriculum
+                development for these courses. These workshops support
+                first-generation, low-income, and underrepresented students in
+                Computer Science at the University of Washington.
+                <br />
+                <br />
+                Simply put, I have loved TA-ing for this series of courses
                 because I have enjoyed connecting with students through
                 check-ins, and I would like to bring my expertise to the team
                 this year. I have been a TA for this series since the Spring
@@ -35,12 +41,9 @@ function UW() {
                 I aim to use this knowledge to improve the class as a whole, and
                 to better instruct future students.
                 <br />
-                <br />
-                A few of my major contributions inclcude:
+                <br />A few of my major contributions inclcude:
                 <ul>
-                    <li>
-                        Course content development for CSE 190X
-                    </li>
+                    <li>Course content development for CSE 190X</li>
                     <li>
                         Wrote unit testing code for both CSE 190X and check-ins
                     </li>
