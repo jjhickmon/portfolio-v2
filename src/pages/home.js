@@ -3,13 +3,13 @@ import Layout from './layout';
 import {NavLink} from "react-router-dom";
 
 function Home() {
-
     return (
         <div>
             <Layout />
             <div className="page main-page">
                 <div className="main">
-                    <div className="main-photo">
+                    <div className="main-photo-container">
+                        <div className="main-photo"></div>
                         <div className="card">
                             <div className="card-header portrait">
                                 {/* <h2>Javon Hickmon</h2> */}
@@ -44,10 +44,10 @@ function Home() {
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">
-                                <NavLink to="/experience"><button type="button">EXPERIENCE</button></NavLink>
+                                <NavLink to="/experience" style={{ textDecoration: 'none' }}><button type="button">EXPERIENCE</button></NavLink>
                             </div>
                             <div className="projects-button">
-                                <NavLink to="/projects"><button type="button">PROJECTS</button></NavLink>
+                                <NavLink to="/projects" style={{ textDecoration: 'none' }}><button type="button">PROJECTS</button></NavLink>
                             </div>
                         </div>
                         <p>

@@ -77,6 +77,7 @@ function AboutMe() {
                         rel='noreferrer'
                         href='https://icons8.com/'>
                         {/* App icons by Icons8 */}
+                        {/* <a  href="https://icons8.com/icon/3096/menu">Menu</a> icon by <a href="https://icons8.com">Icons8</a> */}
                     </a>
                 </div>
             </footer>

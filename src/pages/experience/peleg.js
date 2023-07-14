@@ -13,31 +13,39 @@ function Peleg() {
                         Peleg Lab
                     </a>
                 </h2>
-                <h3 className="subpage-date">June 2023 - Present</h3>
+                <h3 className='subpage-date'>June 2023 - Present</h3>
             </div>
-            <h4 className='subpage-subheader'>Investigating the Balance of Exploration and Exploitation in Honey Bee Swarm Pathfinding</h4>
+            <h4 className='subpage-subheader'>
+                Honeybee Swarm Dynamics: Investigating the Relationship Between
+                Individual Decision Making and Collective Foraging
+            </h4>
             <p>
-                Honey bees are social insects that utilize pheromone signals to
-                direct each other, resulting an emergent swarm behavior.
+                Honeybees are social insects that utilize pheromone signals to
+                direct each other, resulting in emergent swarm behavior.
                 Research has shown that bees can solve the shortest path problem
                 and locate their queen by directing these pheromone signals, or
-                “scenting”, in order to collectively create a communication
-                network; however, little work has been done to study the
-                behavior of individual bees in this process. We aim to show the
-                scenting behaviors of individual honey bees directly correlates
-                to the balance of exploration versus exploitation in the
-                pathfinding behavior of the swarm. We utilize XMem, a
-                state-of-the-art long-term video object segmentation tool, for
-                individual bee tracking and segmentation. Combining this with
-                additional computer vision approaches described in the
-                literature, we analyze the behavior patterns of individual
-                honeybees within the swarm. Through this analysis, we anticipate
-                the time-series data of individual honey bees will display the
-                balance between scenting and exploring that allows for this
-                emergent pathfinding capability of the swarm. This improved
-                tracking of individual honey bees will allow us to develop a
-                better multi-agent reinforcement learning model, predicting the
-                behaviors of the swarm.
+                “scenting,” to create a communication network collectively;
+                however, little work has been done to study how the behavior of
+                the bees changes when in the presence of the swarm. This study
+                aims to investigate how the decisions of individual honeybees
+                affect the foraging and aggregation process of the collective. I
+                utilize state-of-the-art video object tracking and segmentation
+                tools to gather time-series data on the scenting behaviors of
+                individual bees when separated from their queen. Combining this
+                with additional computer vision approaches described in the
+                literature, I analyze the behavior patterns of the individuals
+                as the swarm forages for and aggregates around the queen.
+                Through this analysis, I anticipate the time-series data from
+                individual honeybees will display a predictable relationship
+                between scenting and exploring that allows for the emergent
+                pathfinding capability of the swarm. This improved tracking of
+                individual honeybees will allow us to increase the accuracy of
+                the multi-agent reinforcement learning model to predict the
+                behaviors of the swarm. These improvements directly impact swarm
+                robotics and tasks such as patrolling, disaster recovery, and
+                search and rescue, where it is important to create a
+                low-resource distributed system that can rapidly adapt to new
+                operating conditions.
                 <br />
                 <br />
                 For this project, I:
@@ -59,14 +67,14 @@ function Peleg() {
                         rel='noopener noreferrer'
                         href='https://github.com/hkchengrex/XMem'>
                         XMem
-                    </a>
-                    {" "}to support MPS for inference on Apple devices, fixed
-                    bugs in the GUI, added support for video exporting, and
-                    updated the GUI to utilize the newer PyQT6.
+                    </a>{" "}
+                    to support MPS for inference on Apple devices, fixed bugs in
+                    the GUI, added support for video exporting, and updated the
+                    GUI to utilize the newer PyQT6.
                 </li>
             </ul>
             <p>
-                Mentored by{" "}
+                Mentored by {" "}
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
