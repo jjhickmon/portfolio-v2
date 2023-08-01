@@ -53,6 +53,7 @@ function NavbarMobile() {
                                 HOME
                             </NavLink>
                         </li>
+                        <hr></hr>
                         <li>
                             <NavLink
                                 to='/experience'
@@ -62,6 +63,7 @@ function NavbarMobile() {
                                 EXPERIENCE
                             </NavLink>
                         </li>
+                        <hr></hr>
                         <li>
                             <NavLink
                                 to='/projects'
@@ -71,6 +73,7 @@ function NavbarMobile() {
                                 PROJECTS
                             </NavLink>
                         </li>
+                        <hr></hr>
                         <li>
                             <NavLink
                                 to='/leadership'
@@ -80,6 +83,7 @@ function NavbarMobile() {
                                 LEADERSHIP
                             </NavLink>
                         </li>
+                        <hr></hr>
                         <li>
                             <NavLink
                                 to='/aboutme'

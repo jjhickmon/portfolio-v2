@@ -82,9 +82,19 @@ nav .right {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 2vh;
-    font-size: calc(8px + 1vmin);
+    font-size: 3vw;
     background-color: white;
     z-index: 3;
+}
+
+.menu-mobile hr {
+    /* border-color: var(--primary); */
+    margin: 1vh;
+    width: 100%;
+}
+
+.menu-mobile .link{
+    font-size: 3.5vw;
 }
 
 .left {

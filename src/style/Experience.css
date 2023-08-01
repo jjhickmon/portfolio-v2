@@ -18,12 +18,12 @@
     }
 
     .resume-card-subheader {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         margin: 0;
     }
 
     .job-description ul li {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .download button {
@@ -31,6 +31,7 @@
         color: white;
         border-style: solid;
         font-size: 2vw;
+        height: 4vh;
         padding: .1vh 1vw;
     
         vertical-align: middle;
