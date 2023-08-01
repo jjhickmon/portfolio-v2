@@ -10,37 +10,63 @@
     text-align: center;
 }
 
-.about-professional, .about-personal{
-    display: flex;
-    flex-direction: row;
+@media only screen and (orientation: portrait) {
+    .about-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        padding: 5vw;
+        margin: 2.5vh;
+        position: relative;
+        width: 80vw;
+        font-size: 2.2vw;
+    }
 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 5vh;
+    .about-photo {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 40vw;
+        height: 40vh;
+        margin: 2vh;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
 }
 
-.about-card {
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    padding: 2vw;
-    position: relative;
-    width: 50vw;
-    height: 52vh;
-    font-size: 1.2vw;
-}
+@media only screen and (orientation: landscape) {
+    .about-card {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        padding: 2vw;
+        margin: 2.5vh;
+        position: relative;
+        width: 80vw;
+        font-size: 1.2vw;
+    }
 
-.about-photo {
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    width: 30vw;
-    height: 60vh;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    .about-photo {
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        width: 200%;
+        margin-left: 2vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    }
 }
 
 .about-photo.professional {
     background-image: url("/src/img/presentation.jpg");
+}
+
+footer {
+    bottom: 0;
 }

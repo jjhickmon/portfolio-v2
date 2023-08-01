@@ -5,6 +5,91 @@
     overflow: hidden;
 }
 
+@media only screen and (orientation: portrait) {
+    .resume-card {
+        width: 80vw;
+        height: 35vh;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 0 0 10vh 0;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        z-index: 0;
+    }
+
+    .resume-card-subheader {
+        font-size: 2.5vw;
+        margin: 0;
+    }
+
+    .job-description ul li {
+        font-size: 2vw;
+    }
+
+    .download button {
+        background-color: var(--primary);
+        color: white;
+        border-style: solid;
+        font-size: 2vw;
+        padding: .1vh 1vw;
+    
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .resume-card {
+        width: 40vw;
+        height: 35vh;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 0 0 10vh 0;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        z-index: 0;
+
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .resume-card-subheader {
+        font-size: 1.8vw;
+        margin: 0;
+    }
+
+    .job-description ul li {
+        font-size: 1vw;
+    }
+
+    .download button {
+        background-color: var(--primary);
+        color: white;
+        border-style: solid;
+        width: 100%;
+    
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+}
+
 .resume-page a {
     color: var(--primary);
     font-weight: bold;
@@ -39,24 +124,6 @@
 
 .download a {
     margin: 2vh;
-    width: 12%;
-}
-
-.download button {
-    background-color: var(--primary);
-    color: white;
-    border-style: solid;
-    float: right;
-    width: 100%;
-
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
 }
 
 .download button:hover, .download button:focus, .download button:active {
@@ -96,25 +163,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.resume-card {
-    width: 40vw;
-    height: 35vh;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-    margin: 0 0 10vh 0;
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    z-index: 0;
-
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
 }
 
 .resume-card:hover, .resume-card:focus, .resume-card:active {
@@ -158,11 +206,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-
-.resume-card-subheader {
-    font-size: 1.8vw;
-    margin: 0;
 }
 
 .job-info > h3 {
@@ -214,10 +257,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.job-description ul li {
-    font-size: 1vw;
 }
 
 #resume-education, #resume-skills {

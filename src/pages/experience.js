@@ -195,9 +195,9 @@ function Experience() {
                                 <div className='job-description'>
                                     <ul>
                                         <li>
-                                            Assisted in the teaching, logistics,
-                                            and curriculum development of the
-                                            workshops for these courses. These
+                                            Assisted in the teaching
+                                            and curriculum development for the
+                                            12X series' workshops. These
                                             workshops support first-generation,
                                             low-income, and underrepresented
                                             students in Computer Science at the
@@ -207,8 +207,7 @@ function Experience() {
                                         <li>
                                             Taught introductory Java programming
                                             concepts, selected catered problems
-                                            to help students learn difficult
-                                            topics, and hosted weekly 1-on-1
+                                            for students, and hosted weekly 1-on-1
                                             check-ins.
                                         </li>
                                     </ul>

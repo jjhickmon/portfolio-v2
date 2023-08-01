@@ -59,8 +59,6 @@ function Leadership() {
                             <div className='leadership-card-right'>
                                 <iframe
                                     className='leadership-video'
-                                    width='315'
-                                    height='315'
                                     src='https://www.youtube.com/embed/_H1VY1BJsb4?start=58'
                                     title='YouTube video player'
                                     frameBorder='0'
@@ -183,6 +181,7 @@ function Leadership() {
                             </div>
                             <div className='leadership-card-right'>
                                 <iframe
+                                    className='leadership-post'
                                     title='leadership-instagram-post'
                                     src='https://www.instagram.com/p/Cs0WpVpMU-I/embed'
                                     width='315'
@@ -191,6 +190,7 @@ function Leadership() {
                                     scrolling='no'
                                     allowtransparency='true'></iframe>
                                 <iframe
+                                    className='leadership-post'
                                     title='leadership-instagram-post'
                                     src='https://www.instagram.com/p/CnqgueRrO_s/embed'
                                     width='315'
