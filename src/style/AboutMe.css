@@ -59,12 +59,11 @@
         align-items: right;
         width: 200%;
         margin-left: 2vw;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     }
 }
 
 .about-photo.professional {
-    background-image: url("/src/img/SCC_20230916-142.jpg");
+    background-image: url("/src/img/STARS_Conference.jpg");
 }
 
 footer {

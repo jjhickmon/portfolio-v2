@@ -129,10 +129,9 @@ function Leadership() {
                                     </li>
                                 </ul>
                                 <br />
-                                <br />
-                                <br />
-                                <br />
                                 <p>
+                                    <b>Remarks</b>
+                                    <br />
                                     <a
                                         target='_blank'
                                         rel='noopener noreferrer'

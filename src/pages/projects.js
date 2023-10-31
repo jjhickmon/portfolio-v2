@@ -11,12 +11,76 @@ function Projects() {
                     <div className="project-card-left">
                         <div className="project-name">
                             <div className="sidebar"></div>
+                            <h3>XMem</h3>
+                        </div>
+                        <div className="project-description">
+                            <p>
+                                [ECCV 2022] Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model
+                                <br/><br/>
+                                Contributions: Added support for MPS Apple Silicon and quality of life improvements to the GUI
+                            </p>
+                            <a href="https://github.com/hkchengrex/XMem" target="_blank" rel="noreferrer" aria-label="github">
+                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="project-card-right XMem-img">
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="project-card-left">
+                        <div className="project-name">
+                            <div className="sidebar"></div>
+                            <h3>Digital Tether</h3>
+                        </div>
+                        <div className="project-description">
+                            <p>
+                                Digital Tether is a project led by students and funded by CoMotion Labs with the goal of improving Digital Literacy for marginalized communities worldwide.
+                                <br/><br/>
+                                Created a Google Chrome extension that is designed to help improve digital literacy by teaching users how to identify signs of harmful websites, with the expectation that users will learn best practices and become independent, learning digital literacy.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="project-card-right DigitalTether-img">
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="project-card-left">
+                        <div className="project-name">
+                            <div className="sidebar"></div>
+                            <h3>TinyGAN</h3>
+                        </div>
+                        <div className="project-description">
+                            <p>
+                                TinyGAN is a simple demo project meant to test my understanding of
+                                Generative Networks by creating a simple Generative Adversarial Network (GAN).
+                                This project does not use any prewritten Deep Learning libraries.
+                                <br/><br/>
+                                The goal is to create a GAN that can produce a checkered pattern, with the 
+                                top left and bottom right squares white and the top right and bottom left 
+                                squares black.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="project-card-right TinyGAN-img">
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="project-card-left">
+                        <div className="project-name">
+                            <div className="sidebar"></div>
                             <h3>Luna</h3>
                         </div>
                         <div className="project-description">
                             <p>
-                                A lightweight yet intuitive 3d graphics library
-                                written in Java.
+                                Luna, is a lightweight yet intuitive 3d graphics library
+                                written in Java. This project was written primarily for
+                                education purposes to test my knowledge of linear algebra, 
+                                geometry, and calculus.
+                                <br/><br/>
+                                Wrote the renderer and integrated it with 3D scanning software 
+                                by allowing the engine to load .obj files, one of the most 
+                                widely used 3D file formats.
                             </p>
                             <a href="https://github.com/jjhickmon/Luna" target="_blank" rel="noreferrer" aria-label="github">
                                 <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>

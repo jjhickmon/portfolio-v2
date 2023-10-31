@@ -23,7 +23,7 @@
 
 @media only screen and (orientation: landscape) {
     .project-card {
-        width: 40vw;
+        width: 50vw;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
         margin: 2.5vh 0 7.5vh 0;
         display: flex;
@@ -76,6 +76,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.XMem-img {
+    background-image: url("/src/img/XMem.png");
+    background-size: cover;
+}
+
+.DigitalTether-img {
+    background-image: url("/src/img/DigitalTether.png");
+    background-size: fill;
+}
+
+.TinyGAN-img {
+    background-image: url("/src/img/TinyGAN.png");
+    background-size: fill;
 }
 
 .luna-img {
