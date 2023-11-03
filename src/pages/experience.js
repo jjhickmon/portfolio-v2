@@ -103,6 +103,38 @@ function Experience() {
                         </a>
                     </div>
                     <div className='resume-top-container'>
+                        <div className='resume-card' id='raivn'>
+                            <div className='resume-card-left'>
+                                <div className='job-info'>
+                                    <h3 className='resume-card-subheader'>
+                                        Undergraduate Researcher
+                                    </h3>
+                                    <hr className='divider' />
+                                    <h4>RAIVN Lab</h4>
+                                    <h5>Dec. 2022 - Present</h5>
+                                </div>
+                            </div>
+                            <div className='resume-card-right'>
+                                <div className='job-description'>
+                                    <ul>
+                                        <li>
+                                            Worked to utilize chain-of-thought
+                                            prompting as a means of leveraging
+                                            the knowledge contained within
+                                            Language Models to improve the image
+                                            classification task.
+                                        </li>
+                                        <br />
+                                        <li>
+                                            Worked with the Open Flamingo team
+                                            to improve their ImageNet evaluation
+                                            code. I enabled batching and
+                                            caching, effectively increasing the
+                                            eval rate.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         <div className='resume-card' id='peleg'>
                             <div className='resume-card-left'>
                                 <div className='job-info'>
@@ -144,38 +176,6 @@ function Experience() {
                                 </div>
                             </div>
                         </div>
-                        <div className='resume-card' id='raivn'>
-                            <div className='resume-card-left'>
-                                <div className='job-info'>
-                                    <h3 className='resume-card-subheader'>
-                                        Undergraduate Researcher
-                                    </h3>
-                                    <hr className='divider' />
-                                    <h4>RAIVN Lab</h4>
-                                    <h5>Dec. 2022 - Present</h5>
-                                </div>
-                            </div>
-                            <div className='resume-card-right'>
-                                <div className='job-description'>
-                                    <ul>
-                                        <li>
-                                            Worked to utilize chain-of-thought
-                                            prompting as a means of leveraging
-                                            the knowledge contained within
-                                            Language Models to improve the image
-                                            classification task.
-                                        </li>
-                                        <br />
-                                        <li>
-                                            Worked with the Open Flamingo team
-                                            to improve their ImageNet evaluation
-                                            code. I enabled batching and
-                                            caching, effectively increasing the
-                                            eval rate.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                         </div>
                         <div className="pop-up">
                             <h4>Click to learn more!</h4>
