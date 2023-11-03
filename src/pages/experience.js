@@ -178,7 +178,7 @@ function Experience() {
                             </div>
                         </div>
                         <div className="pop-up">
-                            <h4>Click on a card to learn more!</h4>
+                            <h4>Click to learn more!</h4>
                         </div>
                     </div>
                     <div className='resume-bottom-container'>
