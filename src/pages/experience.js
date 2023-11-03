@@ -135,6 +135,7 @@ function Experience() {
                                     </ul>
                                 </div>
                             </div>
+                        </div>
                         <div className='resume-card' id='peleg'>
                             <div className='resume-card-left'>
                                 <div className='job-info'>
@@ -175,7 +176,6 @@ function Experience() {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
                         </div>
                         <div className="pop-up">
                             <h4>Click to learn more!</h4>
