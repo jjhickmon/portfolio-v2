@@ -78,6 +78,22 @@ function Raivn() {
                     Sarah Pratt
                 </a>
                 .
+                <br/>
+                To view my presentation on this work, check out
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://docs.google.com/presentation/d/1UZI9BCWsTV9rFBdLbpWmfuu9cpbSSKb-yD296iUBC54/edit?usp=sharing'>
+                    this link
+                </a>
+                <br/>
+                You can find my poster for this project{" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://docs.google.com/presentation/d/1_AUv1MG6D4UZlUQ866kB8j0U6T11c8Fo_nwKFAqsn_c/edit?usp=sharing'>
+                    here
+                </a>
             </p>
         </div>
     );
