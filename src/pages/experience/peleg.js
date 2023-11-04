@@ -89,6 +89,14 @@ function Peleg() {
                     href='https://jjhickmon.github.io/dreu/'>
                     my blog posts here
                 </a>
+                <br />
+                To see my final poster, check out {" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://docs.google.com/presentation/d/1kvCzdh_pC89hF5o_XHfsxCK5fc26yPHtswN6_uPf_Gc/edit?usp=sharing'>
+                    this link
+                </a>
             </p>
         </div>
     );
