@@ -11,14 +11,14 @@
 
 @media only screen and (orientation: portrait) {
     .leadership-video {
-        width: 70vw;
-        height: 30vh;
+        width: 60vw;
+        height: 25vh;
         margin: 1vh;
     }
 
     .leadership-post {
-        width: 60vw;
-        height: 65vh;
+        width: 50vw;
+        height: 40vh;
         margin: 1vh;
     }
 
@@ -33,6 +33,16 @@
 
     .leadership-card {
         font-size: 2.2vw;
+    }
+
+    .leadership-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding: 5vw;
+        width: 75vw;
+        align-items: left;
+        justify-content: left;
     }
 }
 
@@ -61,17 +71,18 @@
     .leadership-card {
         font-size: 1.2vw;
     }
+
+    .leadership-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        padding: 2vw;
+        width: 50vw;
+        align-items: left;
+        justify-content: left;
+    }
 }
 
-.leadership-card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 3vw;
-    padding: 2vw;
-    width: 50vw;
-    align-items: left;
-    justify-content: left;
-}
 
 .leadership-page a {
     color: var(--primary);

@@ -79,7 +79,7 @@ function Raivn() {
                 </a>
                 .
                 <br/>
-                To view my presentation on this work, check out
+                To view my presentation on this work, check out{" "}
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
