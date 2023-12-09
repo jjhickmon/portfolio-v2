@@ -46,6 +46,21 @@
     transform: scale(1.1);
 } */
 
+.github-icon {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-self: baseline;
+    justify-content: baseline;
+}
+
+.github-icon img {
+    margin: .8vh;
+    width: 36px;
+    height: 36px;
+}
+
 .project-name {
     display: flex;
     flex-direction: row;
@@ -67,7 +82,7 @@
 }
 
 .project-description > p {
-    font-size: calc(8px + 1vmin);
+    font-size: 1.2vw;
 }
 
 .project-card-right {

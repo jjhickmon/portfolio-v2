@@ -72,7 +72,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="attribution-home">
-                        Last updated July 2023
+                        Last updated December 2023
                     </div>
                 </footer>
             </div>

@@ -37,6 +37,29 @@ function AboutMe() {
                     <div className='about-photo professional'></div>
                 </div>
             </div>
+            <h1 className='page-title'>Fairness and Responsible AI</h1>
+            <div className='about-page'>
+                <div className='about-card'>
+                    Alongside my goals to further cross-modal reasoning, I intend 
+                    to develop advanced multimodal systems through the lens of pressing 
+                    societal issues. I am particularly concerned about Machine Learning methods 
+                    that depend on a single data source—i.e., only images or only 
+                    text—and inadvertently exaggerate hidden biases present in the 
+                    training data with potentially disastrous results, such as when 
+                    government agencies reinforce bias using predictive policing. 
+                    I am determined to research Multimodal Machine Learning within 
+                    various environments to increase data diversity, offset these 
+                    discrepancies, and help address the bias in Machine Learning. 
+                    <br></br>
+                    <br></br>
+                    Unifying learned representations across modalities is one of the core issue in multimodal learning.
+                    Inaccurate cross-modal representation is why biases learned from single modalities propagate
+                    and introduce potentially harmful behavior in multimodal models. I aim to reduce this issue by
+                    understanding how we can use techniques such as a mixture of experts to push these
+                    representations together while maintaining contextually rich information for complex reasoning.
+                    <div className='about-photo professional2'></div>
+                </div>
+            </div>
             <footer>
                 <ul className='footer-contact'>
                     <li>

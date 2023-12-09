@@ -11,7 +11,11 @@ function Projects() {
                     <div className="project-card-left">
                         <div className="project-name">
                             <div className="sidebar"></div>
-                            <h3>XMem</h3>
+                            <h3>XMem
+                                <a className="github-icon" href="https://github.com/hkchengrex/XMem" target="_blank" rel="noreferrer" aria-label="github">
+                                    <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
+                                </a>
+                            </h3>
                         </div>
                         <div className="project-description">
                             <p>
@@ -19,9 +23,6 @@ function Projects() {
                                 <br/><br/>
                                 Contributions: Added support for MPS Apple Silicon and quality of life improvements to the GUI
                             </p>
-                            <a href="https://github.com/hkchengrex/XMem" target="_blank" rel="noreferrer" aria-label="github">
-                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
-                            </a>
                         </div>
                     </div>
                     <div className="project-card-right XMem-img">
@@ -48,7 +49,11 @@ function Projects() {
                     <div className="project-card-left">
                         <div className="project-name">
                             <div className="sidebar"></div>
-                            <h3>TinyGAN</h3>
+                            <h3>TinyGAN
+                                <a className="github-icon" href="https://github.com/jjhickmon/tinyGAN" target="_blank" rel="noreferrer" aria-label="github">
+                                    <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
+                                </a>
+                            </h3>
                         </div>
                         <div className="project-description">
                             <p>
@@ -69,7 +74,12 @@ function Projects() {
                     <div className="project-card-left">
                         <div className="project-name">
                             <div className="sidebar"></div>
-                            <h3>Luna</h3>
+                            <h3>Luna
+                                <a className="github-icon" href="https://github.com/jjhickmon/Luna" target="_blank" rel="noreferrer" aria-label="github">
+                                    <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
+                                </a>
+                            </h3>
+                            
                         </div>
                         <div className="project-description">
                             <p>
@@ -82,15 +92,12 @@ function Projects() {
                                 by allowing the engine to load .obj files, one of the most 
                                 widely used 3D file formats.
                             </p>
-                            <a href="https://github.com/jjhickmon/Luna" target="_blank" rel="noreferrer" aria-label="github">
-                                <img src="https://img.icons8.com/small/32/1A1A1A/github.png" alt="github icon"/>
-                            </a>
                         </div>
                     </div>
                     <div className="project-card-right luna-img">
                     </div>
                 </div>
-                <div className="project-card">
+                {/* <div className="project-card">
                     <div className="project-card-left">
                         <div className="project-name">
                             <div className="sidebar"></div>
@@ -126,7 +133,7 @@ function Projects() {
                     </div>
                     <div className="project-card-right weather-img">
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
