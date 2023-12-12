@@ -51,7 +51,7 @@ function Home() {
                             </div>
                         </div>
                         <p>
-                            I am broadly interested in Machine Learning and Computer Vision; however, my specific interests include 
+                            I am broadly interested in <b>Machine Perception</b>; however, my specific interests include 
                             Multimodal Machine Learning and Fair Machine Learning. 
                             <br/><br/>
                             My goal is to utilize multiple modalities to create systems that can truly understand the semantics 
