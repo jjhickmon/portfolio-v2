@@ -54,8 +54,8 @@ function Home() {
                             I am broadly interested in <b>Machine Perception</b>; however, my specific interests include 
                             Multimodal Machine Learning and Fair Machine Learning. 
                             <br/><br/>
-                            My goal is to utilize multiple modalities to create systems that can truly understand the semantics 
-                            of our world and can effectively use this semantic knowledge in real-world interaction and prediction.
+                            My goal is to utilize <b>Multimodal Learning</b> to create robust, generalizable, and equitable systems that can
+                            effectively use their semantic knowledge in real-world interaction and prediction.
                         </p>
                     </div>
                 </div>
