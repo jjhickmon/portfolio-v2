@@ -219,6 +219,12 @@
     margin: 0 1vw;
 }
 
+.intro a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .card-socials a {
     display: flex;
     flex-direction: row;
@@ -307,7 +313,7 @@ footer {
     display: flex;
     flex-direction: row;
     right: 0;
-    bottom: 0;
+    bottom: -8vh;
     margin: 2vw;
     padding: 0;
 }
@@ -327,11 +333,11 @@ footer li img {
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 0;
     left: 0;
     font-size: 1vmin;
     margin: .5vw;
     width:50%;
+    bottom: -5vh;
 }
 
 .attribution-home > a {

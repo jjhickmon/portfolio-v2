@@ -1,5 +1,7 @@
 :root {
     --primary: #4a7255;
+    --dark-text: black;
+    --light-text: white;
 }
 
 .page-title {

@@ -15,6 +15,49 @@ function Peleg() {
                 </h2>
                 <h3 className='subpage-date'>June 2023 - Present</h3>
             </div>
+            <p>Within the Peleg Lab I have:</p>
+            <ul>
+                <li>
+                    Proposed the implementation of state-of-the-art Computer
+                    Vision methods to improve the accuracy and temporal
+                    coherence for task of object segmentation for honeybees.
+                    <ul>
+                        <li>
+                            Despite this being an ongoing project, we have already been able to discover
+                            a correlation between the scenting behavior of individual honeybees and
+                            the aggregation of the swarm.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Led the research, implementation, and analysis of the
+                    proposed segmentation methods.
+                </li>
+                <li>
+                    Updated the state-of-the-art object segmentation model{" "}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://github.com/hkchengrex/XMem'>
+                        XMem
+                    </a>{" "}
+                    to support MPS for inference on Apple devices, fixed bugs in
+                    the GUI, added support for video exporting, and updated the
+                    GUI to utilize the newer PyQT6.
+                </li>
+            </ul>
+            <p>
+                Mentored by {" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://www.colorado.edu/biofrontiers/orit-peleg'>
+                    Dr. Orit Peleg
+                </a>.
+            </p>
+            <br />
+            <hr />
+            <br />
             <h4 className='subpage-subheader'>
                 Honeybee Swarm Dynamics: Investigating the Relationship Between
                 Individual Decision Making and Collective Foraging
@@ -47,40 +90,6 @@ function Peleg() {
                 low-resource distributed system that can rapidly adapt to new
                 operating conditions.
                 <br />
-                <br />
-                For this project, I:
-            </p>
-            <ul>
-                <li>
-                    Proposed the implementation of state-of-the-art Computer
-                    Vision methods to improve the accuracy and temporal
-                    coherence for task of object segmentation for honeybees.
-                </li>
-                <li>
-                    Led the research, implementation, and analysis of the
-                    proposed segmentation methods.
-                </li>
-                <li>
-                    Updated the state-of-the-art object segmentation model{" "}
-                    <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://github.com/hkchengrex/XMem'>
-                        XMem
-                    </a>{" "}
-                    to support MPS for inference on Apple devices, fixed bugs in
-                    the GUI, added support for video exporting, and updated the
-                    GUI to utilize the newer PyQT6.
-                </li>
-            </ul>
-            <p>
-                Mentored by {" "}
-                <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://www.colorado.edu/biofrontiers/orit-peleg'>
-                    Dr. Orit Peleg
-                </a>
                 <br />
                 To follow my journey, you can read {" "}
                 <a

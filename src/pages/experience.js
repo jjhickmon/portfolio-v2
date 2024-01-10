@@ -114,7 +114,7 @@ function Experience() {
                                     <h5>Dec. 2022 - Present</h5>
                                 </div>
                             </div>
-                            <div className='resume-card-right'>
+                            {/* <div className='resume-card-right'>
                                 <div className='job-description'>
                                     <ul>
                                         <li>
@@ -134,7 +134,7 @@ function Experience() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='resume-card' id='peleg'>
                             <div className='resume-card-left'>
@@ -147,7 +147,7 @@ function Experience() {
                                     <h5>June 2023 - Present</h5>
                                 </div>
                             </div>
-                            <div className='resume-card-right'>
+                            {/* <div className='resume-card-right'>
                                 <div className='job-description'>
                                     <ul>
                                         <li>
@@ -175,7 +175,7 @@ function Experience() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="pop-up">
                             <h4>Click to learn more!</h4>
@@ -184,7 +184,7 @@ function Experience() {
                     <div className='resume-bottom-container'>
                         <div className='resume-bottom-bg'></div>
                         <div className='resume-card' id='uw'>
-                            <div className='resume-card-left'>
+                            <div className='bottom-resume-card-left'>
                                 <div className='job-info'>
                                     <h3 className='resume-card-subheader'>
                                         Teaching Assistant
@@ -194,7 +194,7 @@ function Experience() {
                                     <h5>Mar. 2022 - Present</h5>
                                 </div>
                             </div>
-                            <div className='resume-card-right'>
+                            {/* <div className='resume-card-right'>
                                 <div className='job-description'>
                                     <ul>
                                         <li>
@@ -215,10 +215,10 @@ function Experience() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='resume-card' id='amazon'>
-                            <div className='resume-card-left'>
+                            <div className='bottom-resume-card-left'>
                                 <div className='job-info'>
                                     <h3 className='resume-card-subheader'>
                                         SDE Intern
@@ -228,7 +228,7 @@ function Experience() {
                                     <h5>June 2022 - Sept. 2022</h5>
                                 </div>
                             </div>
-                            <div className='resume-card-right'>
+                            {/* <div className='resume-card-right'>
                                 <div className='job-description'>
                                     <ul>
                                         <li>
@@ -248,10 +248,10 @@ function Experience() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='resume-card' id='code-org'>
-                            <div className='resume-card-left'>
+                            <div className='bottom-resume-card-left'>
                                 <div className='job-info'>
                                     <h3 className='resume-card-subheader'>
                                         AP CSA Presenter
@@ -261,7 +261,7 @@ function Experience() {
                                     <h5>Mar. 2022</h5>
                                 </div>
                             </div>
-                            <div className='resume-card-right'>
+                            {/* <div className='resume-card-right'>
                                 <div className='job-description'>
                                     <ul>
                                         <li>
@@ -278,7 +278,7 @@ function Experience() {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="pop-up">
                             <h4>Click on a card to learn more!</h4>

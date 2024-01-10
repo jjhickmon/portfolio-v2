@@ -13,9 +13,90 @@ function Raivn() {
                         RAIVN Lab
                     </a>
                 </h2>
-                <h3 className="subpage-date">Dec. 2022 - Present</h3>
+                <h3 className='subpage-date'>Dec. 2022 - Present</h3>
             </div>
-            <h4 className='subpage-subheader'>Thinking Beyond Images: Using Chain-of-Thought Prompting to Harness the Power of Language in Multimodal Models</h4>
+            <p>Within the RAIVN Lab I have:</p>
+            <ul>
+                <li>
+                    Led the development of a novel method to utilize generative diffusion-based model
+                    ensembling to improve multimodal <b>fine-grained image classification</b> accuracy.
+                    <ul>
+                        <li>We have already achieved accuracies higher than OpenAI's CLIP ViT-L/14 model on a variety of datasets,
+                            although the project is currently still in development.</li>
+                    </ul>
+                </li>
+                <li>
+                    Researched methods to leverage the knowledge contained
+                    within <b>Large Language Models</b> to improve image classification
+                    for <b>Multimodal Machine Learning</b> models.
+                </li>
+                <li>
+                    Wrote custom evaluation code, resulting in a <b>~15x evaluation speedup</b> while
+                    decreasing the misclassification rate of our system.
+                </li>
+                <li>
+                    Independently wrote the implementation of <b>multimodal chain-of-thought</b> and showed
+                    consistently higher accuracies on a subset of images from the ImageNet dataset.
+                </li>
+            </ul>
+            <p>
+                Mentored by{" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://sarahpratt.github.io/'>
+                    Sarah Pratt
+                </a>{" "}
+                under the supervision of{" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://www.linkedin.com/in/ali-farhadi-098430b1/'>
+                    Dr. Ali Farhadi
+                </a>
+                .
+            </p>
+            <br />
+            <hr />
+            <br />
+            <h4 className='subpage-subheader'>
+                Multimodal Ensembling for Zero-Shot Image Classification
+            </h4>
+            <p>
+                Artificial intelligence has made significant progress in im-
+                age classification, an essential task for machine perception
+                to achieve human-level image understanding. Despite recent
+                advances in vision-language fields, multimodal image classi-
+                fication is still challenging, particularly for the following two
+                reasons. First, models with low capacity often suffer from un-
+                derfitting and thus underperform on fine-grained image clas-
+                sification. Second, it is important to ensure high-quality data
+                with rich cross-modal representations of each class, which is
+                often difficult to generate. Here, I utilize Ensemble Learn-
+                ing to reduce the impact of these issues on pre-trained mod-
+                els. By leveraging open-vocabulary models, I aim to create a
+                meta-model that combines the predictions of multiple open-
+                vocabulary multimodal models trained on different data to
+                create more robust predictions. In this work, I intend to im-
+                prove fine-grained classification accuracy without additional
+                training or fine-tuning by creating an ensemble of multimodal
+                models. This ensemble will better distinguish the differences
+                between similar classes while staying completely zero-shot.
+                <br />
+                <br />
+                This work has been accepted for presentation at the{" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://aaai.org/aaai-conference/undergraduate-consortium/'>
+                    2024 AAAI Undergraduate Consortium
+                </a>
+            </p>
+            <br />
+            <h4 className='subpage-subheader'>
+                Thinking Beyond Images: Using Chain-of-Thought Prompting to
+                Harness the Power of Language in Multimodal Models
+            </h4>
             <p>
                 Image classification is a fundamental problem in Computer
                 Vision, and recent progress in Multimodal Machine Learning has
@@ -44,41 +125,6 @@ function Raivn() {
                 representative systems.
                 <br />
                 <br />
-                For this project I have:
-            </p>
-            <ul>
-                <li>
-                    Utilized chain-of-thought prompting as a
-                    means of leveraging the knowledge contained within Language
-                    Models to improve the image classification task. Specifically
-                    image classification for Multi-Modal Models.
-                </li>
-                <li>
-                    Worked with the Open Flamingo team to improve and test their
-                    framework for training large multimodal models.
-                </li>
-                <li>
-                    Written custom ImageNet evaluation code resulting in a 15x speedup
-                    in evaluation time when compared to previous methods.
-                </li>
-            </ul>
-            <p>
-                Mentored by{" "}
-                <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://www.linkedin.com/in/ali-farhadi-098430b1/'>
-                    Dr. Ali Farhadi
-                </a>{" "}
-                and{" "}
-                <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://sarahpratt.github.io/'>
-                    Sarah Pratt
-                </a>
-                .
-                <br/>
                 To view my presentation on this work, check out{" "}
                 <a
                     target='_blank'
@@ -86,7 +132,7 @@ function Raivn() {
                     href='https://docs.google.com/presentation/d/1UZI9BCWsTV9rFBdLbpWmfuu9cpbSSKb-yD296iUBC54/edit?usp=sharing'>
                     this link
                 </a>
-                <br/>
+                <br />
                 You can find my poster for this project{" "}
                 <a
                     target='_blank'

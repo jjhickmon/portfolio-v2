@@ -40,7 +40,12 @@ function Home() {
                             Javon Hickmon
                         </h1>
                         <h5>
-                            Undergraduate Researcher @ UW
+                            Undergraduate Researcher @ <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://www.cs.washington.edu/'>
+                                UW
+                            </a>
                         </h5>
                         <div className="main-buttons">
                             <div className="resume-button">
@@ -51,10 +56,10 @@ function Home() {
                             </div>
                         </div>
                         <p>
-                            I am broadly interested in <b>Machine Perception</b>; however, my specific interests include 
+                            I am broadly interested in <b>Machine Perception</b> and <b>Responsible AI</b>; however, my specific interests include 
                             Multimodal Machine Learning and Fair Machine Learning. 
                             <br/><br/>
-                            My goal is to utilize <b>Multimodal Learning</b> to create robust, generalizable, and equitable systems that can
+                            My goal is to create robust, generalizable, and equitable systems that can
                             effectively use their semantic knowledge in real-world interaction and prediction.
                         </p>
                     </div>
@@ -72,7 +77,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="attribution-home">
-                        Last updated December 2023
+                        Last updated January 2024
                     </div>
                 </footer>
             </div>
