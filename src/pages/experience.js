@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import resume_pdf from "../img/Javon-Hickmon-CV.pdf";
 import Layout from "./layout";
 import "../style/Experience.css";
+import { motion } from "framer-motion";
 
 function Experience() {
     var card = useRef(null);
@@ -81,18 +82,28 @@ function Experience() {
             window.location.href + "/" + page_name;
         document.getElementById("subpage").style.zIndex = "3";
         document.getElementById("subpage").style.width = "70vw";
-        document.getElementById("subpage").style.height = "70vh";
-        document.getElementById("subpage").style.top = "15vh";
+        document.getElementById("subpage").style.height = "80vh";
+        document.getElementById("subpage").style.top = "10vh";
         document.getElementById("subpage-background").style.opacity = "1";
         document.getElementById("subpage-background").style.zIndex = "1";
         // Close subpage if clicked outside
         document.addEventListener("click", closeSubpage);
     }
 
+    const pageMotion = {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
+        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
+      };
+
     return (
         <div>
             <Layout />
-            <div className='resume-page'>
+            <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageMotion} className='resume-page'>
                 <h1 className='page-title'>Experience</h1>
                 <iframe id='subpage' title='subpage' src=''></iframe>
                 <div id='subpage-background'></div>
@@ -285,7 +296,7 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     );
 }

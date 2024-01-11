@@ -1,15 +1,27 @@
 import Layout from "./layout";
 import "../style/Leadership.css";
 import { useEffect } from "react";
+import { motion } from "framer-motion";
 
 function Leadership() {
     useEffect(() => {
         if (window.instgrm) window.instgrm.Embeds.process();
     }, []);
 
+    const pageMotion = {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
+        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
+      };
+
     return (
-        <div className='static-page'>
+        <div>
             <Layout />
+            <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageMotion}  className='static-page'>
             <h1 className='page-title'>Leadership</h1>
             <div className='leadership-page'>
                 <div className='leadership-section education-director'>
@@ -202,6 +214,7 @@ function Leadership() {
                     </div>
                 </div>
             </div>
+            </motion.div>
         </div>
     );
 }

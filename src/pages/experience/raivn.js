@@ -125,21 +125,39 @@ function Raivn() {
                 representative systems.
                 <br />
                 <br />
-                To view my presentation on this work, check out{" "}
+                I presented this work at the{" "}
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href='https://docs.google.com/presentation/d/1UZI9BCWsTV9rFBdLbpWmfuu9cpbSSKb-yD296iUBC54/edit?usp=sharing'>
-                    this link
+                    href='https://starscelebration.org/'>
+                    2022 STARS Celebration
                 </a>
+                {" "}and the{" "}
+                <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href='https://www.aap.ucla.edu/mcnair/'>
+                    2023 UCLA National McNair Conference</a>.
                 <br />
-                You can find my poster for this project{" "}
-                <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://docs.google.com/presentation/d/1_AUv1MG6D4UZlUQ866kB8j0U6T11c8Fo_nwKFAqsn_c/edit?usp=sharing'>
-                    here
-                </a>
+                <ul>
+                    <li>To view my presentation on this work, check out{" "}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://docs.google.com/presentation/d/1UZI9BCWsTV9rFBdLbpWmfuu9cpbSSKb-yD296iUBC54/edit?usp=sharing'>
+                        this link
+                    </a>
+                    </li>
+                    <li>
+                    You can find my poster for this project{" "}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://docs.google.com/presentation/d/1_AUv1MG6D4UZlUQ866kB8j0U6T11c8Fo_nwKFAqsn_c/edit?usp=sharing'>
+                        here
+                    </a>
+                    </li>
+                </ul>
             </p>
         </div>
     );

@@ -1,10 +1,21 @@
 import "../style/Projects.css";
 import Layout from "./layout";
+import { motion } from "framer-motion";
 
 function Projects() {
+    const pageMotion = {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
+        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
+      };
     return (
         <div>
             <Layout />
+            <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageMotion}>
             <h1 className="page-title">Projects</h1>
             <div className="projects-page page">
                 <div className="project-card">
@@ -135,6 +146,7 @@ function Projects() {
                     </div>
                 </div> */}
             </div>
+            </motion.div>
         </div>
     );
 }

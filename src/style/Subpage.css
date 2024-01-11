@@ -1,10 +1,43 @@
-.subpage {
-    padding: 4vw;
+@media only screen and (orientation: portrait) {
+    .subpage {
+        padding: 5vw;
+    }
+    .subpage p, .subpage ul {
+        font-size: 3.5vw;
+    }
+    .subpage-subheader {
+        text-align: center;
+        font-size: 4vw;
+    }
+    .subpage-date {
+        font-size: 3.5vw;
+        font-style: italic;
+        font-weight: lighter;
+        margin-bottom: 0;
+        margin: 0;
+    }
 }
 
-.subpage p, .subpage ul {
-    font-size: 1.5vw;
+@media only screen and (orientation: landscape) {
+    .subpage {
+        padding: 4vw;
+    }
+    .subpage p, .subpage ul {
+        font-size: 1.7vw;
+    }
+    .subpage-subheader {
+        text-align: center;
+        font-size: 2.3vw;
+    }
+    .subpage-date {
+        font-size: 2.1vw;
+        font-style: italic;
+        font-weight: lighter;
+        margin-bottom: 0;
+        margin: 0;
+    }
 }
+
 
 .subpage a {
     color: var(--primary);
@@ -24,17 +57,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.subpage-subheader {
     text-align: center;
-    font-size: 1.5vw;
 }
 
-.subpage-date {
-    font-size: 1.5vw;
-    font-style: italic;
-    font-weight: lighter;
-    margin-bottom: 0;
-    margin: 0;
+.subpage-header h2 {
+    margin-bottom: 1vh;
 }

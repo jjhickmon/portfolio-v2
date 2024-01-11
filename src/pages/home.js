@@ -1,12 +1,23 @@
 import '../style/Home.css';
+import { motion } from "framer-motion";
 import Layout from './layout';
 import {NavLink} from "react-router-dom";
 
 function Home() {
+    const pageMotion = {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
+        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
+      };
     return (
         <div>
             <Layout />
-            <div className="page main-page">
+            <motion.div
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                variants={pageMotion}
+             className="page main-page">
                 <div className="main">
                     <div className="main-photo-container">
                         <div className="main-photo"></div>
@@ -57,7 +68,7 @@ function Home() {
                         </div>
                         <p>
                             I am broadly interested in <b>Machine Perception</b> and <b>Responsible AI</b>; however, my specific interests include 
-                            Multimodal Machine Learning and Fair Machine Learning. 
+                            Multimodal Machine Learning and Fair ML. 
                             <br/><br/>
                             My goal is to create robust, generalizable, and equitable systems that can
                             effectively use their semantic knowledge in real-world interaction and prediction.
@@ -80,7 +91,7 @@ function Home() {
                         Last updated January 2024
                     </div>
                 </footer>
-            </div>
+            </motion.div>
         </div>
     );
 }

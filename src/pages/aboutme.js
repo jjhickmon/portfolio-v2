@@ -1,10 +1,21 @@
 import Layout from "./layout";
 import "../style/AboutMe.css";
+import { motion } from "framer-motion";
 
 function AboutMe() {
+    const pageMotion = {
+        initial: { opacity: 0, y: 100 },
+        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
+        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
+      };
     return (
-        <div className='static-page'>
+        <div>
             <Layout />
+            <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageMotion} className='static-page'>
             <h1 className='page-title'>About Me</h1>
             <div className='about-page'>
                 <div className='about-card'>
@@ -102,6 +113,7 @@ function AboutMe() {
                     </a>
                 </div>
             </footer>
+            </motion.div>
         </div>
     );
 }

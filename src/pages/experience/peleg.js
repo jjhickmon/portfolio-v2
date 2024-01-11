@@ -91,21 +91,28 @@ function Peleg() {
                 operating conditions.
                 <br />
                 <br />
-                To follow my journey, you can read {" "}
+                I presented this work at the{" "}
                 <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href='https://jjhickmon.github.io/dreu/'>
-                    my blog posts here
-                </a>
-                <br />
-                To see my final poster, check out {" "}
-                <a
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    href='https://docs.google.com/presentation/d/1kvCzdh_pC89hF5o_XHfsxCK5fc26yPHtswN6_uPf_Gc/edit?usp=sharing'>
-                    this link
-                </a>
+                    href='https://www.sacnas.org/conference/2023-sacnas'>
+                    2023 SACNAS National Diversity in STEM Conference</a>
+                <ul>
+                    <li>To follow my journey, you can read {" "}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://jjhickmon.github.io/dreu/'>
+                        my blog posts here
+                    </a></li>
+                    <li>To see my final poster, check out {" "}
+                    <a
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        href='https://docs.google.com/presentation/d/1kvCzdh_pC89hF5o_XHfsxCK5fc26yPHtswN6_uPf_Gc/edit?usp=sharing'>
+                        this link
+                    </a></li>
+                </ul>
             </p>
         </div>
     );
