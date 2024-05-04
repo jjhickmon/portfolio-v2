@@ -24,6 +24,30 @@ function Leadership() {
             variants={pageMotion}  className='static-page'>
             <h1 className='page-title'>Leadership</h1>
             <div className='leadership-page'>
+                <div className='leadership-img'></div>
+                <div className='leadership-section husky100'>
+                    <div className='leadership-card'>
+                        <h2 className='leadership-header'>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://www.washington.edu/husky100/year/2024/#name=javon-hickmon'>
+                                Husky100
+                            </a>
+                        </h2>
+                        <h3 className='leadership-date'> May 2024</h3>
+                        <div className='leadership-card-body'>
+                            <div className='leadership-card-left'>
+                                <p>
+                                    Each year, the Husky 100 recognizes 100 undergraduate, graduate and professional students from the UW Bothell, Seattle and Tacoma campuses in all areas of study who are making the most of their time at the University of Washington.
+                                </p>
+                            </div>
+                            <div className='leadership-card-right'>
+                                <div className='husky100-img'></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='leadership-section education-director'>
                     <div className='leadership-card'>
                         <h2 className='leadership-header'>

@@ -83,6 +83,25 @@
     }
 }
 
+.leadership-img {
+    position: absolute;
+    width: 100vw;
+    height: 260vh;
+    top: 50vh;
+    background-image: url("/src/img/IMG_1469.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.husky100-img {
+    background-image: url("/src/img/240424_HUSKY\ 100_MARKETO_EMAIL\ HEADER_600x300-01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+}
+
+
 
 .leadership-page a {
     color: var(--primary);

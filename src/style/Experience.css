@@ -61,7 +61,7 @@
 
     .resume-bottom-container::before {
         content: "";
-        background-image: url("/src/img/plants.jpeg");
+        background-image: url("/src/img/d6f38f28-2a07-4b6b-a066-749597322809.JPG");
         background-size: cover;
         background-attachment: fixed;
         position: absolute;
@@ -136,7 +136,7 @@
 
     .resume-bottom-container::before {    
         content: "";
-        background-image: url("/src/img/plants.jpeg");
+        background-image: url("/src/img/SCC_20230916-53\ \(1\).jpg");
         background-size: cover;
         background-attachment: fixed;
         position: absolute;
@@ -144,6 +144,7 @@
         height: 185vh;
         width: 100vw;
         opacity: 0.80;
+        top: 50vh;
     }
 }
 

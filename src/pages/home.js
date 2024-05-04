@@ -21,9 +21,9 @@ function Home() {
                 <div className="main">
                     <div className="main-photo-container">
                         <div className="main-photo"></div>
-                        <div className="card">
+                        {/* <div className="card">
                             <div className="card-header portrait">
-                                {/* <h2>Javon Hickmon</h2> */}
+                                <h2>Javon Hickmon</h2>
                             </div>
                             <div className="card-footer">
                                 <ul className="card-socials">
@@ -44,7 +44,7 @@ function Home() {
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="intro">
                         <h1 className="hello">
@@ -88,7 +88,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="attribution-home">
-                        Last updated January 2024
+                        Last updated May 2024
                     </div>
                 </footer>
             </motion.div>
