@@ -141,7 +141,7 @@
         background-attachment: fixed;
         position: absolute;
         z-index: -1;
-        height: 185vh;
+        height: 275vh;
         width: 100vw;
         opacity: 0.80;
         top: 50vh;
@@ -260,12 +260,12 @@
     width: 100%;
     padding: 2vw;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40),
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.40),
         rgba(0, 0, 0, 0.40)), url("/src/img/plants.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 500%;
-    color: var(--light-text);
+    background-size: 500%; */
+    color: var(--dark-text);
 }
 
 .bottom-resume-card-left {
@@ -277,11 +277,11 @@
     width: 100%;
     padding: 2vw;
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0.9),
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.9),
         rgba(255, 255, 255, 0.9)), url("/src/img/plants.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: 500%;
+    background-size: 500%; */
     color: var(--dark-text);
 }
 
