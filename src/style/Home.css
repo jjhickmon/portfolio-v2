@@ -123,7 +123,7 @@
     .main-photo {
         background-image: url("/src/img/portrait.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: top;
         width: inherit;
         height: inherit;
         position: absolute;
