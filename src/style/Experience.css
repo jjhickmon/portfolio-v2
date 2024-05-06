@@ -61,7 +61,7 @@
 
     .resume-bottom-container::before {
         content: "";
-        background-image: url("/src/img/d6f38f28-2a07-4b6b-a066-749597322809.JPG");
+        background-image: url("/src/img/working.jpg");
         background-size: cover;
         background-attachment: fixed;
         position: absolute;
@@ -136,7 +136,7 @@
 
     .resume-bottom-container::before {    
         content: "";
-        background-image: url("/src/img/SCC_20230916-53\ \(1\).jpg");
+        background-image: url("/src/img/working.jpg");
         background-size: cover;
         background-attachment: fixed;
         position: absolute;
@@ -193,9 +193,9 @@
 
 #subpage {
     position: fixed;
-    width: 0;
+    width: 70vw;
     height: 0;
-    top: 50vh;
+    top: 100vh;
     align-items: center;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;

@@ -28,7 +28,7 @@
     }
 
     .main-photo {
-        background-image: url("/src/img/plants.jpeg");
+        background-image: url("/src/img/portrait.jpg");
         background-position: center;
         width: inherit;
         height: inherit;
@@ -121,7 +121,7 @@
     }
 
     .main-photo {
-        background-image: url("/src/img/20240403_Javon Hickman_1042 2.jpg");
+        background-image: url("/src/img/portrait.jpg");
         background-size: cover;
         background-position: center;
         width: inherit;
@@ -207,11 +207,11 @@
     justify-content: center;
 }
 
-.portrait {
+/* .portrait {
     background-image: url("/src/img/20240403_Javon Hickman_1009.jpg");
     background-position: center;
     background-size: cover;
-}
+} */
 
 .card-socials {
     position: absolute;

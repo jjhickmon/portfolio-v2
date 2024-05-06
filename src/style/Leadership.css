@@ -88,14 +88,14 @@
     width: 100vw;
     height: 330vh;
     top: 50vh;
-    background-image: url("/src/img/IMG_1469.jpg");
+    background-image: url("/src/img/spring_bbq.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .husky100-img {
-    background-image: url("/src/img/240424_HUSKY\ 100_MARKETO_EMAIL\ HEADER_600x300-01.jpg");
+    background-image: url("/src/img/husky100.jpg");
     background-size: cover;
     width: 100%;
     height: 35vh;

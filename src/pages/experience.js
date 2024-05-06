@@ -66,8 +66,8 @@ function Experience() {
             target_element = target_element.parentNode;
         } while (target_element);
         subpage.style.zIndex = "0";
-        subpage.style.top = "50vh";
-        subpage.style.width = "0";
+        subpage.style.top = "100vh";
+        subpage.style.width = "70vw";
         subpage.style.height = "0";
         subpage_background.style.opacity = "0";
         subpage_background.style.zIndex = "-1";
@@ -82,7 +82,7 @@ function Experience() {
             window.location.href + "/" + page_name;
         document.getElementById("subpage").style.zIndex = "3";
         document.getElementById("subpage").style.width = "70vw";
-        document.getElementById("subpage").style.height = "80vh";
+        document.getElementById("subpage").style.height = "90vh";
         document.getElementById("subpage").style.top = "10vh";
         document.getElementById("subpage-background").style.opacity = "1";
         document.getElementById("subpage-background").style.zIndex = "1";
