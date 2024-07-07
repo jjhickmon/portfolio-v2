@@ -18,61 +18,44 @@ function Home() {
                 exit="exit"
                 variants={pageMotion}
              className="page main-page">
-                <div className="main">
-                    <div className="main-photo-container">
-                        <div className="main-photo"></div>
-                        {/* <div className="card">
-                            <div className="card-header portrait">
-                                <h2>Javon Hickmon</h2>
-                            </div>
-                            <div className="card-footer">
-                                <ul className="card-socials">
-                                    <li>
-                                        <a href="mailto:javonh@uw.edu">
-                                            <img src="https://img.icons8.com/small/128/FFFFFF/new-post.png" width="32px" heigth="32px" alt="mail icon"/>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/javonh/" target="_blank" rel="noreferrer" aria-label="linkedin">
-                                            <img src="https://img.icons8.com/small/128/FFFFFF/linkedin.png" width="32px" heigth="32px" alt="linkedin icon"/>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/jjhickmon" target="_blank" rel="noreferrer" aria-label="github">
-                                            <img src="https://img.icons8.com/small/128/FFFFFF/github.png" width="32px" heigth="32px" alt="github icon"/>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> */}
-                    </div>
-                    <div className="intro">
-                        <h1 className="hello">
-                            Javon Hickmon
-                        </h1>
-                        <h5>
-                            Undergraduate Researcher @ <a
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                href='https://www.cs.washington.edu/'>
-                                UW
-                            </a>
-                        </h5>
-                        <div className="main-buttons">
-                            <div className="resume-button">
-                                <NavLink to="/experience" style={{ textDecoration: 'none' }}><button type="button">EXPERIENCE</button></NavLink>
-                            </div>
-                            <div className="projects-button">
-                                <NavLink to="/projects" style={{ textDecoration: 'none' }}><button type="button">PROJECTS</button></NavLink>
-                            </div>
+                <div className="main-bg">
+                    <div className="main">
+                        <div className="main-photo-container">
+                            <div className="main-photo"></div>
                         </div>
-                        <p>
-                            I am broadly interested in <b>Machine Perception</b> and <b>Responsible AI</b>; however, my specific interests include 
-                            Multimodal Machine Learning and Fair ML. 
-                            <br/><br/>
-                            My goal is to create robust, generalizable, and equitable systems that can
-                            effectively use their semantic knowledge in real-world interaction and prediction.
-                        </p>
+                        <div className="intro">
+                            <h1 className="hello">
+                            Javon Hickmon
+                            </h1>
+                            <h5>
+                                Master's Student @ <a
+                                    target='_blank'
+                                    rel='noopener noreferrer'
+                                    href='https://www.cs.washington.edu/'>
+                                    UW
+                                </a>
+                            </h5>
+                            <div className="main-buttons">
+                                <div className="resume-button">
+                                    <NavLink to="/research" style={{ textDecoration: 'none' }}><button type="button">RESEARCH</button></NavLink>
+                                </div>
+                                <div className="projects-button">
+                                    <NavLink to="/projects" style={{ textDecoration: 'none' }}><button type="button">PROJECTS</button></NavLink>
+                                </div>
+                            </div>
+                            <p>
+                                I am broadly interested in <b>Machine Perception</b>, <b>Responsible AI</b>, and <b>Human-AI Interaction</b>.
+                                As a result, my current research is centered around Multimodal Machine Learning, Fair ML, and Cognitive Science.
+                                <br/><br/>
+                                I aim to create systems that facilitate improved human decision-making capabilities, mitigate social injustices, and allow for an improved understanding of cognition.
+                                {/* I am currently exploring how we can use Deep Learning to non-invasively measure
+                                human cognitive workload. I aim to leverage this information and understand how
+                                we can create adaptive decision-making systems that facilitate a reduction in harmful cognitive bias. */}
+                                {/* <br/><br/>
+                                My goal is to create robust, generalizable, and equitable systems that can
+                                effectively use their semantic knowledge in real-world interaction and prediction. */}
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <footer>
@@ -88,7 +71,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="attribution-home">
-                        Last updated May 2024
+                        Last updated July 2024
                     </div>
                 </footer>
             </motion.div>

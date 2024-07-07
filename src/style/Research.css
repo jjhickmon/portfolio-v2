@@ -1,0 +1,249 @@
+.research-page {
+    align-items: center;
+}
+
+@media only screen and (orientation: portrait) {
+    .download button {
+        background-color: var(--primary);
+        color: white;
+        border-style: solid;
+        font-size: 2vw;
+        height: 4vh;
+        padding: .1vh 1vw;
+
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+    
+    .research-project {
+        width: 80vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        /* margin: 2.5vh 0 7.5vh 0; */
+        display: block;
+        background-color: white;
+        padding: 2.5vw;
+        font-size: 2.2vw;
+    
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication {
+        width: 85vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 0 0;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        font-size: 2.2vw;
+    
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication-left {
+        text-align: center;
+        width: 80vw;
+        height: 20vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 1.5vw 0 1.5vw 1.5vw;
+    }
+
+    .publication-right {
+        text-align: center;
+        padding: 2.5vw;
+    }
+
+    .presentation {
+        width: 80vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 0 0;
+        display: block;
+        padding: 2.5vw;
+        background-color: white;
+        font-size: 2.2vw;
+
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .teaching-position {
+        width: 80vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 7.5vh 0;
+        display: block;
+        padding: 2.5vw;
+        background-color: white;
+        font-size: 2.2vw;
+
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication-title, .presentation-title, .teaching-title {
+        font-size: 2.5vw;
+        font-weight: bold;
+        margin:0;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .download button {
+        background-color: var(--primary);
+        color: white;
+        border-style: solid;
+        width: 100%;
+        padding: 2vh 1vw;
+
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .research-project {
+        width: 50vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        /* margin: 2.5vh 0 7.5vh 0; */
+        display: block;
+        background-color: white;
+        padding: 2.5vw;
+        font-size: 1.2vw;
+    
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication {
+        width: 55vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 7.5vh 0;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        font-size: 1.2vw;
+    
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication-left {
+        text-align: left;
+        width: 35%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 1.5vw 0 1.5vw 1.5vw;
+    }
+    
+    .publication-right {
+        text-align: left;
+        width: 70%;
+        padding: 2.5vw;
+    }
+
+    .presentation {
+        width: 50vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 7.5vh 0;
+        display: block;
+        padding: 2.5vw;
+        background-color: white;
+        font-size: 1.2vw;
+
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .teaching-position {
+        width: 50vw;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+        margin: 2.5vh 0 7.5vh 0;
+        display: block;
+        padding: 2.5vw;
+        background-color: white;
+        font-size: 1.2vw;
+
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+    .publication-title, .presentation-title, .teaching-title {
+        font-size: 1.5vw;
+        font-weight: bold;
+        margin:0;
+    }
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 2vh 0;
+}
+
+.download a {
+    margin: 2vh;
+}
+
+.download button:hover, .download button:focus, .download button:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.research-page a {
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aaai-proposal {
+    background-image: url("/src/img/gemini_diagram.png");
+}

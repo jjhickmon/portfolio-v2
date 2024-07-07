@@ -8,6 +8,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 0 0 5vh 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 @media only screen and (orientation: portrait) {
@@ -74,7 +79,3 @@
     background-image: url("/src/img/presentation2.jpg");
 }
 
-footer {
-    position: relative;
-    bottom: -10vh;
-}

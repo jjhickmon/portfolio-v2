@@ -1,24 +1,26 @@
-.page {
-    background-color: #FFFFFF;
-    color: black;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
-}
-
 .main-page {
     justify-content: center;
+    align-items: center;
 }
 
 .main {
     display: flex;
     flex-direction: row;
+    width: 70vw;
+    background-color: white;
+}
+
+.main-bg {
+    /* background-image: url('/src/img/lines.jpeg'); */
+    background-color: white;
+    padding: 1vw;
+    background-size: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 @media only screen and (orientation: portrait) {
     .main-photo-container {
-        width: 100vw;
+        width: 70vw;
         height: 30vh;
         margin:0;
         padding:0;
@@ -29,11 +31,11 @@
 
     .main-photo {
         background-image: url("/src/img/portrait.jpg");
-        background-position: center;
+        background-position: top;
+        background-size: cover;
         width: inherit;
         height: inherit;
         position: absolute;
-        opacity: 0.2;
     }
 
     .main {
@@ -41,9 +43,9 @@
     }
 
     .intro {
-        width: 80vw;
+        width: 60vw;
         height: inherit;
-        margin: 10vmin 10vmin 2vmin 10vmin;
+        margin: 5vmin 5vmin 2vmin 5vmin;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -72,7 +74,7 @@
     }
 
     .hello {
-        font-size: 10vmin;
+        font-size: 8vmin;
         margin: 0;
         font-weight: bold;
     }
@@ -108,13 +110,13 @@
     }
 
     .intro p {
-        font-size: 2.8vw;
+        font-size: 2.5vw;
     }
 }
 
 @media only screen and (orientation: landscape) {
     .main-photo-container {
-        width: 40vw;
+        width: 30vw;
         height: 70vh;
         margin:0;
         padding:0;
@@ -163,6 +165,7 @@
         font-size: 7.5vmin;
         margin: 0;
         font-weight: bold;
+        text-align: left;
     }
 
     button {

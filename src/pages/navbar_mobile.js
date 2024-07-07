@@ -56,11 +56,11 @@ function NavbarMobile() {
                         <hr></hr>
                         <li>
                             <NavLink
-                                to='/experience'
+                                to='/research'
                                 className={({ isActive }) =>
                                     isActive ? "active" : "inactive"
                                 }>
-                                EXPERIENCE
+                                RESEARCH
                             </NavLink>
                         </li>
                         <hr></hr>

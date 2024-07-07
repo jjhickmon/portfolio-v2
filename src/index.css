@@ -1,7 +1,21 @@
 :root {
-    --primary: #4a7255;
+    /* --primary: #4a7255; */
+    --primary: #407280;
     --dark-text: black;
     --light-text: white;
+}
+
+.page {
+    background-color: #FFFFFF;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    background-image: url("/src/img/bg5.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .page-title {

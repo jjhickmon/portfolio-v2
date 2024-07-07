@@ -86,8 +86,8 @@
 .leadership-img {
     position: absolute;
     width: 100vw;
-    height: 330vh;
-    top: 50vh;
+    height: 420vh;
+    top: 30vh;
     background-image: url("/src/img/spring_bbq.jpg");
     background-size: cover;
     background-position: center;

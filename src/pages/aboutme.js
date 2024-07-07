@@ -15,7 +15,7 @@ function AboutMe() {
             initial="initial"
             animate="animate"
             exit="exit"
-            variants={pageMotion} className='static-page'>
+            variants={pageMotion} className='page static-page'>
             <h1 className='page-title'>About Me</h1>
             <div className='about-page'>
                 <div className='about-card'>
@@ -48,7 +48,7 @@ function AboutMe() {
                     <div className='about-photo professional'></div>
                 </div>
             </div>
-            <h1 className='page-title'>Fairness and Responsible AI</h1>
+            <h1>Fairness and Responsible AI</h1>
             <div className='about-page'>
                 <div className='about-card'>
                     Alongside my goals to further cross-modal reasoning, I intend 
@@ -71,48 +71,6 @@ function AboutMe() {
                     <div className='about-photo professional2'></div>
                 </div>
             </div>
-            <footer>
-                <ul className='footer-contact'>
-                    <li>
-                        Write
-                        <br />
-                        javonh@uw.edu
-                    </li>
-                    <li className='footer-follow'>
-                        Follow
-                        <br />
-                        <a
-                            href='https://www.linkedin.com/in/javonh/'
-                            target='_blank'
-                            rel='noreferrer'
-                            aria-label='linkedin'>
-                            <img
-                                src='https://img.icons8.com/small/16/1A1A1A/linkedin.png'
-                                alt='linkedin icon'
-                            />
-                        </a>
-                        <a
-                            href='https://github.com/jjhickmon'
-                            target='_blank'
-                            rel='noreferrer'
-                            aria-label='github'>
-                            <img
-                                src='https://img.icons8.com/small/16/1A1A1A/github.png'
-                                alt='github icon'
-                            />
-                        </a>
-                    </li>
-                </ul>
-                <div className='attribution-home'>
-                    <a
-                        target='_blank'
-                        rel='noreferrer'
-                        href='https://icons8.com/'>
-                        {/* App icons by Icons8 */}
-                        {/* <a  href="https://icons8.com/icon/3096/menu">Menu</a> icon by <a href="https://icons8.com">Icons8</a> */}
-                    </a>
-                </div>
-            </footer>
             </motion.div>
         </div>
     );
