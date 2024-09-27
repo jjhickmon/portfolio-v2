@@ -71,7 +71,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="attribution-home">
-                        Last updated July 2024
+                        Last updated September 2024
                     </div>
                 </footer>
             </motion.div>

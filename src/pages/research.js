@@ -121,6 +121,16 @@ function Research() {
                 </div>
                 <h1 className="page-title">Teaching</h1>
                 <div className="teaching-position">
+                <h3 className="teaching-title">Instructor (University of Washington)</h3>
+                    <ul>
+                    <li>
+                        CSE 190W: Allen School Scholars Program CSE 121 Supplemental Course
+                        <br></br>
+                        <i>September 2024 - Present</i>
+                    </li>
+                    </ul>
+                    <br></br>
+
                     <h3 className="teaching-title">Lead Undergraduate Teaching Assistant (University of Washington)</h3>
                     <ul>
                     <li>
