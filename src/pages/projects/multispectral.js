@@ -5,7 +5,7 @@ function ProjectMultispectral() {
         <div className='subpage'>
             <div className='subpage-header'>
                 <h2>
-                    Multispectral Imaging for Congnitive Load Quantification
+                    Multispectral Imaging for Congnitive Load Estimation
                 </h2>
                 <h3 className='subpage-date'>
                     <a
