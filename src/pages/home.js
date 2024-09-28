@@ -44,7 +44,7 @@ function Home() {
                                 </div>
                             </div>
                             <p>
-                                I am broadly interested in <b>Machine Perception</b>, <b>Responsible AI</b>, and <b>Human-AI Interaction</b>.
+                                I am broadly interested in <b>Human-AI Interaction</b>, <b>Computer Vision</b>, and <b>Responsible AI</b>.
                                 As a result, my current research is centered around Multimodal Machine Learning, Fair ML, and Cognitive Science.
                                 <br/><br/>
                                 I aim to create systems that facilitate improved human decision-making capabilities, mitigate social injustices, and allow for an improved understanding of cognition.
@@ -70,7 +70,7 @@ function Home() {
                             </a>
                         </li>
                     </ul>
-                    <div className="attribution-home">
+                    <div className="footer-updated">
                         Last updated September 2024
                     </div>
                 </footer>

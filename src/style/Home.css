@@ -312,8 +312,10 @@ h5 {
 
 footer {
     width: 100vw;
-    display: flex;
+    display: block;
+    position: absolute;
     flex-direction: row;
+    height: 90vh;
 }
 
 .footer-contact {
@@ -322,7 +324,7 @@ footer {
     flex-direction: row;
     right: 0;
     bottom: -8vh;
-    margin: 2vw;
+    margin: 4vh 2vw;
     padding: 0;
 }
 
@@ -337,13 +339,13 @@ footer li img {
     margin: .2vw;
 }
 
-.attribution-home {
+.footer-updated {
     display: flex;
     flex-direction: column;
     position: absolute;
     left: 0;
     font-size: 1vmin;
-    margin: .5vw;
+    margin: 2vh 2.5vw;
     width:50%;
     bottom: -5vh;
 }
