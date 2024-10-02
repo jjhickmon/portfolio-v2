@@ -315,7 +315,8 @@ footer {
     display: block;
     position: absolute;
     flex-direction: row;
-    height: 90vh;
+    top: 85vh;
+    height: 10vh;
 }
 
 .footer-contact {
