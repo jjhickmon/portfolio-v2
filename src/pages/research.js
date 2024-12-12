@@ -2,6 +2,7 @@ import Layout from "./layout";
 import "../style/Research.css";
 import { motion } from "framer-motion";
 import resume_pdf from "../img/Javon-Hickmon-CV.pdf";
+import thesis from "../img/Javon_Hickmon_Honors_Thesis_signed.pdf";
 
 function Research() {
 
@@ -59,10 +60,27 @@ function Research() {
                 </div>
                 <h1 className="page-title">Publications</h1>
                 <div className="publication">
+                    <div className="publication-left undergrad-thesis">
+                    </div>
+                    <div className="publication-right">
+                    <h3 className="publication-title">Multimodal Approaches to Fair Image Classification: An Ethical Perspective</h3>
+                    <i>Javon Hickmon</i> {" "}
+                    <a
+                        target='_self'
+                        rel='noopener noreferrer'
+                        href={thesis}>
+                        [PDF]
+                    </a>
+                    <br></br>
+                    <br></br>
+                    Machine Learning (ML) systems that depend on a single data modality—i.e., only images or only text—can exaggerate hidden biases present in the training data, if the data is not carefully balanced and filtered. This thesis explores the intersection of technology and ethics in the development of fair image classification models. Specifically, I focus on improving fairness and methods of using multiple modalities to combat harmful demographic bias. Integrating multimodal approaches, which combine visual data with additional modalities such as text and metadata, allows this work to enhance the fairness and accuracy of image classification systems.
+                    </div>
+                </div>
+                <div className="publication">
                     <div className="publication-left aaai-proposal">
                     </div>
                     <div className="publication-right">
-                    <h3 className="publication-title">Multimodal Ensembling for Zero-Shot Image Classification</h3>
+                    <h3 className="publication-title">Multimodal Ensembling for Zero-Shot Image Classification (Abstract)</h3>
                     <i>Javon Hickmon</i> {" "}
                     <a
                         target='_self'
@@ -121,7 +139,7 @@ function Research() {
                 </div>
                 <h1 className="page-title">Teaching</h1>
                 <div className="teaching-position">
-                <h3 className="teaching-title">Instructor (University of Washington)</h3>
+                    <h3 className="teaching-title">Instructor (University of Washington)</h3>
                     <ul>
                     <li>
                         CSE 190W: Allen School Scholars Program CSE 121 Supplemental Course
@@ -193,6 +211,31 @@ function Research() {
                         <br></br>
                         <i>March 2022</i>
                     </li>
+                    </ul>
+                </div>
+                <h1 className="page-title">Talks and Panels</h1>
+                <div className="presentation">
+                    <h3 className="presentation-title">2024</h3>
+                    <ul>
+                        <li>UW CSE 390R Student Research Panel, Nov. 2024</li>
+                        <li>LEAP REU Student Panel, Nov. 2024</li>
+                        <li>GEM Fellow Panel, July 2024</li>
+                        <li>UW GEN1 Career Panel, May 2024</li>
+                        <li>COM² & LEAP: Research Conferences 101, May 2024</li>
+                        <li>Gabriel E. Gallardo Symposium Student Leader Panel, April 2024</li>
+                        <li>National LEAP Alliance Webinar on Undergraduate Research, March 2024</li>
+                    </ul>
+                    <h3 className="presentation-title">2023</h3>
+                    <ul>
+                    <li>COM² CS Ed Week Outreach Poster, Dec. 2023</li>
+                    <li>"Honeybee Swarm Dynamics" - Invited Lecture @ CU Boulder, Nov. 2023</li>
+                    <li>UW Direct Admit Seminar Student Leader Panel, Nov. 2023</li>
+                    <li>UW CSE 390R Student Research Panel, Nov. 2023</li>
+                    <li>MiT/LEAP Summer Research Program Student Panel, Nov. 2023</li>
+                    <li>COM² Git and Version Control Workshop, May 2023</li>
+                    <li>UW CSE Undergraduate Research Roundtable, April 2023</li>
+                    <li>BS/MS Student Panel, April 2023</li>
+                    <li>COM² React JS Workshop, Feb. 2023</li>
                     </ul>
                 </div>
             </motion.div>

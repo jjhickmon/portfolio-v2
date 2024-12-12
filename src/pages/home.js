@@ -44,10 +44,10 @@ function Home() {
                                 </div>
                             </div>
                             <p>
-                                I am broadly interested in <b>Human-AI Interaction</b>, <b>Computer Vision</b>, and <b>Responsible AI</b>.
-                                As a result, my current research is centered around Multimodal Machine Learning, Fair ML, and Cognitive Science.
+                                I am broadly interested in <b>human-AI Interaction</b> and <b>responsible AI</b>.
+                                As a result, my current research is centered around multimodal machine learning, ML fairness, and computer vision. Along with this, my recent work has started to explore cognitive science.
                                 <br/><br/>
-                                I aim to create systems that facilitate improved human decision-making capabilities, mitigate social injustices, and allow for an improved understanding of cognition.
+                                I aim to mitigate the risks and social injustices of emerging technologies, while creating systems that facilitate improved human decision-making capabilities.
                                 {/* I am currently exploring how we can use Deep Learning to non-invasively measure
                                 human cognitive workload. I aim to leverage this information and understand how
                                 we can create adaptive decision-making systems that facilitate a reduction in harmful cognitive bias. */}
@@ -71,7 +71,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="footer-updated">
-                        Last updated September 2024
+                        Last updated December 2024
                     </div>
                 </footer>
             </motion.div>
