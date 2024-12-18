@@ -63,12 +63,15 @@ function Research() {
                     <div className="publication-left undergrad-thesis">
                     </div>
                     <div className="publication-right">
-                    <h3 className="publication-title">Multimodal Approaches to Fair Image Classification: An Ethical Perspective</h3>
+                    <h3 className="publication-title">Multimodal Approaches to Fair Image Classification: An Ethical Perspective (Preprint)</h3>
                     <i>Javon Hickmon</i> {" "}
+                    <br></br>
+                    Undergraduate Honors Thesis
+                    <br></br>
                     <a
                         target='_self'
                         rel='noopener noreferrer'
-                        href={thesis}>
+                        href="https://arxiv.org/pdf/2412.12165">
                         [PDF]
                     </a>
                     <br></br>
@@ -82,6 +85,9 @@ function Research() {
                     <div className="publication-right">
                     <h3 className="publication-title">Multimodal Ensembling for Zero-Shot Image Classification (Abstract)</h3>
                     <i>Javon Hickmon</i> {" "}
+                    <br></br>
+                    AAAI 2024
+                    <br></br>
                     <a
                         target='_self'
                         rel='noopener noreferrer'
