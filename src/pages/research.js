@@ -2,7 +2,6 @@ import Layout from "./layout";
 import "../style/Research.css";
 import { motion } from "framer-motion";
 import resume_pdf from "../img/Javon-Hickmon-CV.pdf";
-import thesis from "../img/Javon_Hickmon_Honors_Thesis_signed.pdf";
 
 function Research() {
 
