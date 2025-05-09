@@ -158,7 +158,7 @@ function Experience() {
                     <div className='project-card-row' id='row'>
                         <div className='project-card' id='multispectral'>
                             <h3 className='project-card-subheader'>
-                                Multispectral Imaging for Congnitive Load Estimation
+                                Multispectral Imaging for Cognitive Load Estimation
                             </h3>
                             <hr className='divider' />
                             <h4>NASA Johson Space Center</h4>
