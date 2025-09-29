@@ -12,8 +12,8 @@ function ProjectMultispectral() {
                         target='_blank'
                         rel='noopener noreferrer'
                         href='https://www.nasa.gov/software-robotics-and-simulation-division/'>
-                        NASA Johson Space Center
-                    </a>: June 2024 - Present
+                        NASA Johnson Space Center
+                    </a>: June 2024 - August 2025
                 </h3>
             </div>
             <div className='project-description'>
@@ -29,6 +29,7 @@ function ProjectMultispectral() {
                     This project is currently in progress.
                 </p>
             </div>
+            
         </div>
     );
 }

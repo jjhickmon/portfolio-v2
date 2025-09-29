@@ -147,13 +147,31 @@ function Research() {
                     <h3 className="teaching-title">Instructor (University of Washington)</h3>
                     <ul>
                     <li>
+                        CSE 197Y: Allen School Scholars Program CSE 123 Supplemental Course
+                        <br></br>
+                        <i>September 2025 - Present</i>
+                    </li>
+                    <li>
+                        CSE 190Y: Allen School Scholars Program CSE 123 Supplemental Course
+                        <br></br>
+                        <i>March 2025 - June 2025</i>
+                    </li>
+                    <li>
                         CSE 190W: Allen School Scholars Program CSE 121 Supplemental Course
                         <br></br>
-                        <i>September 2024 - Present</i>
+                        <i>September 2024 - December 2024</i>
                     </li>
                     </ul>
                     <br></br>
-
+                    <h3 className="teaching-title">Graduate Teaching Assistant (University of Washington)</h3>
+                    <ul>
+                    <li>
+                        CSE 190X: Allen School Scholars Program CSE 122 Supplemental Course
+                        <br></br>
+                        <i>January 2025 - March 2025</i>
+                    </li>
+                    </ul>
+                    <br></br>
                     <h3 className="teaching-title">Lead Undergraduate Teaching Assistant (University of Washington)</h3>
                     <ul>
                     <li>
@@ -220,6 +238,10 @@ function Research() {
                 </div>
                 <h1 className="page-title">Talks and Panels</h1>
                 <div className="presentation">
+                    <h3 className="presentation-title">2025</h3>
+                    <ul>
+                        <li>SIGCSE - "Providing Supplemental Programs for First Generation and/or Low-Income CS Students in Trying Financial Times" (Accepted)</li>
+                    </ul>
                     <h3 className="presentation-title">2024</h3>
                     <ul>
                         <li>UW CSE 390R Student Research Panel, Nov. 2024</li>

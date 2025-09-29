@@ -83,8 +83,8 @@ function NavbarMobile() {
                                 LEADERSHIP
                             </NavLink>
                         </li>
-                        <hr></hr>
-                        <li>
+                        {/* <hr></hr> */}
+                        {/* <li>
                             <NavLink
                                 to='/aboutme'
                                 className={({ isActive }) =>
@@ -92,7 +92,7 @@ function NavbarMobile() {
                                 }>
                                 ABOUT ME
                             </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

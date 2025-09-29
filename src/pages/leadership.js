@@ -25,6 +25,40 @@ function Leadership() {
             <h1 className='page-title'>Leadership</h1>
             <div className='leadership-page'>
                 <div className='leadership-img'></div>
+                <div className='leadership-section'>
+                    <div className='leadership-card'>
+                        <h2 className='leadership-header'>
+                           Student Advisor:{" "}
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://com2.cs.washington.edu/'>
+                                COM²
+                            </a>
+                        </h2>
+                        <h3 className='leadership-date'> May 2024 - May 2025</h3>
+                        <div className='leadership-card-body'>
+                            <div className='leadership-card-left'>
+                                <p>
+                                    <b>Seattle Public Schools Outreach</b><br />
+                                    Through this role, I was able to develop and host outreach initiatives
+                                    in collaboration with Seattle Public Schools. Through these efforts,
+                                    12 volunteers from UW presented to 577 SPS students in 22 classes
+                                    for 11 teachers at 10 schools! This was the first collaboration between
+                                    COM² and SPS, and I am excited to see where this partnership goes in the future.
+                                    <br />
+                                    <br />
+                                    <b>Seattle Public Libraries Outreach</b><br />
+                                    In addition, I created the <b>UW's first</b> outreach program between the
+                                    Allen School and Seattle Public Libraries. This program aimed to provide
+                                    introductory computer science workshops to learners of all ages within the Seattle area.
+                                    We recruited 10 volunteers and hosted 4 workshops at library branches within the
+                                    North, East, Central, and South regions of Seattle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className='leadership-section husky100'>
                     <div className='leadership-card'>
                         <h2 className='leadership-header'>

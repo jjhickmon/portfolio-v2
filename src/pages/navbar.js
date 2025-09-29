@@ -17,7 +17,7 @@ function Navbar() {
                     <li><NavLink to="/research" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>RESEARCH</NavLink></li>
                     <li><NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>PROJECTS</NavLink></li>
                     <li><NavLink to="/leadership" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>LEADERSHIP</NavLink></li>
-                    <li><NavLink to="/aboutme" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>ABOUT ME</NavLink></li>
+                    {/* <li><NavLink to="/aboutme" className={({ isActive }) => (isActive ? 'active' : 'inactive')}>ABOUT ME</NavLink></li> */}
                 </ul>
             </div>
         </nav>
