@@ -44,7 +44,7 @@ function Home() {
                                 </div>
                             </div>
                             <p>
-                                I am broadly interested in <b>Human-AI Interaction</b> and <b>Responsible AI</b> and <b>ML Fairness</b>.
+                                I am broadly interested in <b>Human-AI Interaction</b>, <b>Responsible AI</b> and <b>ML Fairness</b>.
                                 I currently explore ways to evaluate and improve moral decision-making within machine learning systems.
                                 <br/><br/>
                                 I aim to mitigate the risks and social injustices of emerging technologies, while creating systems that facilitate improved human decision-making capabilities.
