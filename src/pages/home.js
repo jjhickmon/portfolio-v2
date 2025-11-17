@@ -48,6 +48,8 @@ function Home() {
                                 I currently explore ways to evaluate and improve moral decision-making within machine learning systems.
                                 <br/><br/>
                                 I aim to mitigate the risks and social injustices of emerging technologies, while creating systems that facilitate improved human decision-making capabilities.
+                                <br/><br/>
+                                My work has been generously supported by the <a href="https://www.nsfgrfp.org/" target="_blank" rel="noopener noreferrer">NSF Graduate Research Fellowship</a> and the <a href="https://www.gemfellowship.org/gem-fellowship-program/" target="_blank" rel="noopener noreferrer">GEM Fellowship</a>.
                                 {/* I am currently exploring how we can use Deep Learning to non-invasively measure
                                 human cognitive workload. I aim to leverage this information and understand how
                                 we can create adaptive decision-making systems that facilitate a reduction in harmful cognitive bias. */}
@@ -71,7 +73,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="footer-updated">
-                        Last updated September 2025
+                        Last updated November 2025
                     </div>
                 </footer>
             </motion.div>
