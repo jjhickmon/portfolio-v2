@@ -1,15 +1,14 @@
 import React, { useEffect, useRef } from "react";
 import Layout from "./layout";
 import "../style/Projects.css";
-import { motion } from "framer-motion";
-// import imgDiverseETHICS from '../img/diverseETHICS.jpg';
-// import imgVisualETHICS from '../img/visualETHICS.png';
+import imgDiverseETHICS from '../img/diverseETHICS.jpg';
+import imgVisualETHICS from '../img/visualETHICS.png';
 // import imgOnComputingMoralityGod from '../img/on-computing-morality-god.jpg';
 // import imgContext from '../img/context.png';
 import imgReflection from '../img/reflection.jpg';
 import imgDecisions from '../img/decisions.jpg'
 
-function Experience() {
+function Projects() {
     var card = useRef(null);
 
     // Similar to componentDidMount and componentDidUpdate:
@@ -143,24 +142,14 @@ function Experience() {
         }
     }
 
-    const pageMotion = {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
-        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
-      };
-
     return (
         <div>
             <Layout />
-            <motion.div
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={pageMotion} className='page project-page'>
+            <div className='page project-page'>
                 <iframe id='subpage' title='subpage' src=''></iframe>
                 <div id='subpage-background'></div>
                 <div id='projects'>
-                    {/* <h1 className='page-title'>Current Projects</h1>
+                    <h1 className='page-title'>Current Projects</h1>
                     <div className='project-card-row' id='row'>
                         <div className='project-card' id='diverse-ethics'style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgDiverseETHICS})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
                             <h3 className='project-card-subheader'>
@@ -179,7 +168,7 @@ function Experience() {
                             <h5>June 2025 - present</h5>
                         </div>
                     </div>
-
+{/* 
                     <h1 className='page-title'>Long-Term Projects</h1>
                     <div className='project-card-row' id='row'>
                         <div className='project-card' id='context'  style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgContext})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -280,9 +269,9 @@ function Experience() {
                         </div>
                     </div>
                 </div>
-            </motion.div>
+            </div>
         </div>
     );
 }
 
-export default Experience;
+export default Projects;

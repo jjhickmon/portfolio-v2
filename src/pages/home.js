@@ -1,23 +1,12 @@
 import '../style/Home.css';
-import { motion } from "framer-motion";
 import Layout from './layout';
 import {NavLink} from "react-router-dom";
 
 function Home() {
-    const pageMotion = {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
-        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
-      };
     return (
         <div>
             <Layout />
-            <motion.div
-                initial="initial"
-                animate="animate"
-                exit="exit"
-                variants={pageMotion}
-             className="page main-page">
+            <div className="page main-page">
                 <div className="main-bg">
                     <div className="main">
                         <div className="main-photo-container">
@@ -76,7 +65,7 @@ function Home() {
                         Last updated December 2025
                     </div>
                 </footer>
-            </motion.div>
+            </div>
         </div>
     );
 }

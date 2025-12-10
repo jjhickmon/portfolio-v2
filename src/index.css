@@ -12,11 +12,9 @@
     display: flex;
     flex-direction: column;
     font-size: calc(10px + 2vmin);
-    background-image: url("/src/img/background-downsampled.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background: url("/src/img/background-downsampled.jpg")  center/cover no-repeat fixed;
 }
+
 
 .page-title {
     margin: 10vh 0 0 0;

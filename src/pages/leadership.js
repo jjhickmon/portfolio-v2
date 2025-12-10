@@ -1,27 +1,16 @@
 import Layout from "./layout";
 import "../style/Leadership.css";
 import { useEffect } from "react";
-import { motion } from "framer-motion";
 
 function Leadership() {
     useEffect(() => {
         if (window.instgrm) window.instgrm.Embeds.process();
     }, []);
 
-    const pageMotion = {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
-        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
-      };
-
     return (
         <div>
             <Layout />
-            <motion.div
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={pageMotion}  className='static-page'>
+            <div className='page static-page'>
             <h1 className='page-title'>Leadership</h1>
             <div className='leadership-page'>
                 <div className='leadership-img'></div>
@@ -41,7 +30,7 @@ function Leadership() {
                             <div className='leadership-card-left'>
                                 <p>
                                     <b>Seattle Public Schools Outreach</b><br />
-                                    Through this role, I was able to develop and host outreach initiatives
+                                    In this role, I developed and hosted outreach initiatives
                                     in collaboration with Seattle Public Schools. Through these efforts,
                                     12 volunteers from UW presented to 577 SPS students in 22 classes
                                     for 11 teachers at 10 schools! This was the first collaboration between
@@ -272,7 +261,7 @@ function Leadership() {
                     </div>
                 </div>
             </div>
-            </motion.div>
+            </div>
         </div>
     );
 }

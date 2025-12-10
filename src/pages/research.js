@@ -1,24 +1,14 @@
 import Layout from "./layout";
 import "../style/Research.css";
-import { motion } from "framer-motion";
+import "../index.css";
 import resume_pdf from "../img/Javon-Hickmon-CV.pdf";
 
 function Research() {
 
-    const pageMotion = {
-        initial: { opacity: 0, y: 100 },
-        animate: { opacity: 1, y: 0, transition: { duration: .8 } },
-        exit: { opacity: 0, y: -100, transition: { duration: .3 } }
-      };
-
     return (
         <div>
             <Layout />
-            <motion.div
-            initial="initial"
-            animate="animate"
-            exit="exit"
-            variants={pageMotion}  className='page research-page'>
+            <div className='page research-page'>
                 <h1 className="page-title">Research</h1>
                 <div className='download'>
                     <a href={resume_pdf} target='_blank' rel='noreferrer'>
@@ -265,7 +255,7 @@ function Research() {
                     <li>COM² React JS Workshop, Feb. 2023</li>
                     </ul>
                 </div>
-            </motion.div>
+            </div>
         </div>
     );
 }
