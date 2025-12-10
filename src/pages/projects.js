@@ -2,6 +2,12 @@ import React, { useEffect, useRef } from "react";
 import Layout from "./layout";
 import "../style/Projects.css";
 import { motion } from "framer-motion";
+// import imgDiverseETHICS from '../img/diverseETHICS.jpg';
+// import imgVisualETHICS from '../img/visualETHICS.png';
+// import imgOnComputingMoralityGod from '../img/on-computing-morality-god.jpg';
+// import imgContext from '../img/context.png';
+import imgReflection from '../img/reflection.jpg';
+import imgDecisions from '../img/decisions.jpg'
 
 function Experience() {
     var card = useRef(null);
@@ -151,10 +157,49 @@ function Experience() {
             animate="animate"
             exit="exit"
             variants={pageMotion} className='page project-page'>
-                <h1 className='page-title'>Projects</h1>
                 <iframe id='subpage' title='subpage' src=''></iframe>
                 <div id='subpage-background'></div>
                 <div id='projects'>
+                    {/* <h1 className='page-title'>Current Projects</h1>
+                    <div className='project-card-row' id='row'>
+                        <div className='project-card' id='diverse-ethics'style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgDiverseETHICS})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                                DiverseETHICS: The Impact of Annotator Demographics on Moral Judgment Datasets
+                            </h3>
+                            <hr className='divider' />
+                            <h4>Independent</h4>
+                            <h5>April 2025 - present</h5>
+                        </div>
+                        <div className='project-card' id='modal-moral-alignment' style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgVisualETHICS})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                                The Influence of Modality on VLM Moral Judgment
+                            </h3>
+                            <hr className='divider' />
+                            <h4>RAIVN Lab</h4>
+                            <h5>June 2025 - present</h5>
+                        </div>
+                    </div>
+
+                    <h1 className='page-title'>Long-Term Projects</h1>
+                    <div className='project-card-row' id='row'>
+                        <div className='project-card' id='context'  style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgContext})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                                The Importance of Context for Machine Moral Reasoning
+                            </h3>
+                            <hr className='divider' />
+                            <h5>Master's Thesis</h5>
+                        </div>
+                        <div className='project-card' id='on-computing-morality-god'  style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgOnComputingMoralityGod})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                                On Computing, Morality, and God
+                            </h3>
+                            <h5>An Inquiry into the Foundations of Machine Morality</h5>
+                            <hr className='divider' />
+                            <h5>Book</h5>
+                        </div>
+                    </div> */}
+
+                    <h1 className='page-title'>Past Projects <sub style={{fontSize: '1vw'}}>(both big and small)</sub></h1>
                     <div className='project-card-row' id='row'>
                         <div className='project-card' id='multispectral'>
                             <h3 className='project-card-subheader'>
@@ -162,7 +207,23 @@ function Experience() {
                             </h3>
                             <hr className='divider' />
                             <h4>NASA Johson Space Center</h4>
-                            <h5>June 2024 - Present</h5>
+                            <h5>June 2024 - August 2025</h5>
+                        </div>
+                    </div>
+                    <div className='project-card-row' id='row'>
+                        <div className='project-card' id='rational-reflection' style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgReflection})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                               The Power of Rational Reflection
+                            </h3>
+                            <hr className='divider' />
+                            <h5>March 2025 - June 2025</h5>
+                        </div>
+                        <div className='project-card' id='decision-making' style={{backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url(${imgDecisions})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+                            <h3 className='project-card-subheader'>
+                                Toward Socially Just Political Theory for Systems of Human-AI Decision-Making
+                            </h3>
+                            <hr className='divider' />
+                            <h5>January 2025 - March 2025</h5>
                         </div>
                     </div>
                     <div className='project-card-row' id='row'>
@@ -172,7 +233,7 @@ function Experience() {
                             </h3>
                             <hr className='divider' />
                             <h4>RAIVN Lab</h4>
-                            <h5>May 2024 - Present</h5>
+                            <h5>May 2024 - June 2024</h5>
                         </div>
                         <div className='project-card' id='muse'>
                             <h3 className='project-card-subheader'>
@@ -180,7 +241,7 @@ function Experience() {
                             </h3>
                             <hr className='divider' />
                             <h4>RAIVN Lab</h4>
-                            <h5>Oct. 2023 - Present</h5>
+                            <h5>Oct. 2023 - June 2024</h5>
                         </div>
                     </div>
                     <div className='project-card-row' id='row'>

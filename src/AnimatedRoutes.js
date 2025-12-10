@@ -23,6 +23,12 @@ import ProjectBees from "./pages/projects/bees";
 import ProjectEasyship from "./pages/projects/easyship";
 import ProjectXMem from "./pages/projects/xmem";
 import ProjectDigitalTether from "./pages/projects/digital-tether";
+import ProjectOnComputingMoralityGod from "./pages/projects/on-computing-morality-god";
+import ProjectDiverseEthics from "./pages/projects/diverse-ethics";
+import ProjectModalMoralAlignment from "./pages/projects/modal-moral-alignment";
+import ProjectContext from "./pages/projects/context";
+import ProjectDecisionMaking from "./pages/projects/decision-making";
+import ProjectRationalReflection from "./pages/projects/rational-reflection";
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -43,6 +49,12 @@ const AnimatedRoutes = () => {
         <Route path="projects/easyship" element={<ProjectEasyship />} />
         <Route path="projects/xmem" element={<ProjectXMem />} />
         <Route path="projects/digital-tether" element={<ProjectDigitalTether />} />
+        <Route path="projects/on-computing-morality-god" element={<ProjectOnComputingMoralityGod />} />
+        <Route path="projects/diverse-ethics" element={<ProjectDiverseEthics />} />
+        <Route path="projects/modal-moral-alignment" element={<ProjectModalMoralAlignment />} />
+        <Route path="projects/context" element={<ProjectContext/>} />
+        <Route path="projects/decision-making" element={<ProjectDecisionMaking/>} />
+        <Route path="projects/rational-reflection" element={<ProjectRationalReflection/>} />
 
         {/* <Route path="experience/raivn" element={<Raivn/>} />
         <Route path="experience/uw" element={<UW/>} />

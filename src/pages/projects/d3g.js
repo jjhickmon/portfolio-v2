@@ -1,4 +1,5 @@
 import "../../style/Subpage.css";
+import pdfD3G from "../../img/D3G_paper.pdf"
 
 function ProjectD3G() {
     return (
@@ -24,7 +25,7 @@ function ProjectD3G() {
                     across Vision and Language; however, despite these advances, image classification is still challenging task. 
                     Models with low capacity often suffer from underfitting and thus underperform on fine-grained image classification.
                     Along with this, it is important to ensure high-quality data with rich cross-modal representations of each class, 
-                    which is often difficult to generate. 
+                    which is often difficult to generate.
                 </p>
             </div>
             <p>
@@ -43,6 +44,9 @@ function ProjectD3G() {
                 Pipeline Architecture:
             </p>
             <div className='project-image' id='d3g-img2'></div>
+            <div className='subpage-media'>
+                <embed src={pdfD3G} type="application/pdf" width="70%" height="1000px" />
+            </div>
         </div>
     );
 }

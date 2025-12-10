@@ -73,7 +73,7 @@ function Home() {
                         </li>
                     </ul>
                     <div className="footer-updated">
-                        Last updated November 2025
+                        Last updated December 2025
                     </div>
                 </footer>
             </motion.div>

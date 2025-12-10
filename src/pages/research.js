@@ -62,7 +62,7 @@ function Research() {
                     <div className="publication-left undergrad-thesis">
                     </div>
                     <div className="publication-right">
-                    <h3 className="publication-title">Multimodal Approaches to Fair Image Classification: An Ethical Perspective (Preprint)</h3>
+                    <h3 className="publication-title">Multimodal Approaches to Fair Image Classification: An Ethical Perspective</h3>
                     <i>Javon Hickmon</i> {" "}
                     <br></br>
                     Undergraduate Honors Thesis
